@@ -7,18 +7,31 @@ export const StyledCard = styled.div`
   z-index: ${(props) => props.zIndex};
   color: white;
   position: relative;
-  ::after {
+
+  ::before {
+    content: "";
     background-color: ${(props) => props.color};
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     position: absolute;
-    bottom: -1.5rem;
+    bottom: -2rem;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 9999px;
-    ${(props) => {
+    /* ${(props) => {
       if (!props.footer) {
         return `content: ""`;
       }
-    }}
+    }} */
+  }
+
+  ::after {
+    content: ">";
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
 `;
