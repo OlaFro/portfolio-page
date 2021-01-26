@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./Card";
+import { GlobalStyle } from "./style/global";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Card title="hero" height="85vh" color="black" zIndex="5" />
+      <Card title="about" height="50vh" color="green" zIndex="4" />
+      <Card title="skills" height="55vh" color="lightblue" zIndex="3" />
+      <Card title="projects" height="75vh" color="gray" zIndex="2" />
+      <Card
+        title="footer"
+        height="25vh"
+        color="black"
+        zIndex="5"
+        footer="true"
+      />
+    </>
   );
 }
 
