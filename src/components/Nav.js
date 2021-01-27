@@ -1,9 +1,10 @@
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
+import { StyledNav } from "../style/StyledCard";
 
 export default function Nav() {
   return (
-    <div>
+    <StyledNav>
       <NavHashLink smooth to="#home">
         Home
       </NavHashLink>
@@ -19,6 +20,6 @@ export default function Nav() {
       <NavHashLink smooth to="#footer">
         Footer
       </NavHashLink>
-    </div>
+    </StyledNav>
   );
 }

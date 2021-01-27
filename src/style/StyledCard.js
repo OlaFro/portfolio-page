@@ -59,3 +59,18 @@ export const StyledTitle = styled.h1`
   justify-content: center;
   align-items: center;
 `;
+
+export const StyledNav = styled.nav`
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  width: 60%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+`;
