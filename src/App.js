@@ -1,21 +1,20 @@
-import Card from "./Card";
+// import Card from "./components/Card";
 import { GlobalStyle } from "./style/global";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Card title="hero" height="85vh" color="#585123" zIndex="5" />
-      <Card title="about" height="85vh" color="#EEC170" zIndex="4" />
-      <Card title="skills" height="55vh" color="#F2A65A" zIndex="3" />
-      <Card title="projects" height="75vh" color="#F58549" zIndex="2" />
-      <Card
-        title="footer"
-        height="25vh"
-        color="#772F1A"
-        zIndex="5"
-        footer="true"
-      />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
     </>
   );
 }

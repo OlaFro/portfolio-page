@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledCard, ArrowDown } from "./style/StyledCard";
+import { StyledCard, ArrowDown } from "../style/StyledCard";
 
 export default function Card(props) {
   return (

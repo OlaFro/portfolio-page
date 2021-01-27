@@ -41,7 +41,7 @@ export const ArrowDown = styled(KeyboardArrowDown)`
   position: absolute;
   bottom: 0;
   left: 50%;
-  bottom: -1.7rem;
+  bottom: -1.8rem;
   transform: translateX(-50%);
   transition: bottom 250ms ease-in-out;
 
