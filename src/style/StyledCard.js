@@ -50,3 +50,12 @@ export const ArrowDown = styled(KeyboardArrowDown)`
     bottom: -2rem;
   }
 `;
+
+export const StyledTitle = styled.h1`
+  font-size: 30rem;
+  color: white;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;

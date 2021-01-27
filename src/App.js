@@ -1,4 +1,3 @@
-// import Card from "./components/Card";
 import { GlobalStyle } from "./style/global";
 import Hero from "./components/Hero";
 import About from "./components/About";
