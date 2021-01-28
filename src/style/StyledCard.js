@@ -13,7 +13,8 @@ export const StyledCard = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
   ${(props) => {
     if (props.footer) {
       return `padding-bottom: 4rem`;
@@ -30,7 +31,9 @@ export const StyledCard = styled.div`
     left: 50%;
     transform: translateX(-50%);
     border-radius: 9999px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+      0 16px 16px rgba(0, 0, 0, 0.12);
   }
 
   ::after {
@@ -52,6 +55,7 @@ export const ArrowDown = styled(KeyboardArrowDown)`
   bottom: -1.8rem;
   transform: translateX(-50%);
   transition: bottom 250ms ease-in-out;
+
   :hover {
     color: yellow;
     bottom: -2rem;
@@ -62,23 +66,29 @@ export const ArrowDown = styled(KeyboardArrowDown)`
 
 export const StyledH1 = styled.h1`
   font-size: 20rem;
-  margin: 0;
+  margin: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   text-align: center;
-  text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 6px 5px rgba(0, 0, 0, 0.3);
 `;
 
 export const StyledH2 = styled.h2`
-  font-size: 3rem;
-  margin: 0;
+  font-size: 2.2rem;
+  margin: 10px;
   padding: 1rem;
   text-align: center;
-  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  line-height: 1.15;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 
   ${(props) => {
     if (props.title === "hero") {
-      return `margin-top: -4rem`;
+      return `margin-top: -2rem`;
     }
   }}
+`;
+
+export const StyledText = styled.p`
+  font-size: 1.5rem;
 `;
