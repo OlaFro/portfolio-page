@@ -4,6 +4,7 @@ import { StyledNav } from "../style/StyledCard";
 
 export default function Nav() {
   return (
+    // <div></div>
     <StyledNav>
       <NavHashLink smooth to="#home">
         Home

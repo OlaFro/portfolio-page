@@ -8,17 +8,11 @@ export const StyledCard = styled.div`
   z-index: ${(props) => props.zIndex};
   color: white;
   position: relative;
-  /* ${(props) => {
-    if (props.hero) {
-      return `background-image: url(https://images.unsplash.com/photo-1483470134942-13bbf4677d84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
-        background-attachment: fixed;
-        background-size: cover
-        background-repeat: no-repeat`;
-    }
-  }}; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   ::before {
-    content: "";
     background-color: ${(props) => props.color};
     height: 5rem;
     width: 5rem;
@@ -27,11 +21,11 @@ export const StyledCard = styled.div`
     left: 50%;
     transform: translateX(-50%);
     border-radius: 9999px;
-    /* ${(props) => {
+    ${(props) => {
       if (!props.footer) {
         return `content: ""`;
       }
-    }} */
+    }}
   }
 `;
 
@@ -44,7 +38,6 @@ export const ArrowDown = styled(KeyboardArrowDown)`
   bottom: -1.8rem;
   transform: translateX(-50%);
   transition: bottom 250ms ease-in-out;
-
   :hover {
     color: yellow;
     bottom: -2rem;
@@ -52,23 +45,23 @@ export const ArrowDown = styled(KeyboardArrowDown)`
 `;
 
 export const StyledTitle = styled.h1`
-  font-size: 30rem;
+  font-size: 20rem;
   color: white;
   margin-top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const StyledNav = styled.nav`
   position: -webkit-sticky;
   position: sticky;
-  top: 30px;
-  width: 60%;
+  top: 40px;
+  width: 50%;
   z-index: 10;
   display: flex;
   justify-content: space-around;
   margin: auto;
+  font-size: 1.5rem;
+  margin-top: -2rem;
+
   a {
     text-decoration: none;
     color: white;
