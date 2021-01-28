@@ -11,6 +11,7 @@ export const StyledCard = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 1px 1px 5px black;
   ${(props) => {
     if (props.footer) {
       return `padding-bottom: 4rem`;
@@ -27,12 +28,16 @@ export const StyledCard = styled.div`
     left: 50%;
     transform: translateX(-50%);
     border-radius: 9999px;
+    box-shadow: 1px 1px 5px black;
+  }
 
-    /* ${(props) => {
-      if (!props.footer) {
-        return `content: ""`;
-      }
-    }} */
+  ::after {
+    content: "";
+    background-color: inherit;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 0;
   }
 `;
 
@@ -66,6 +71,7 @@ export const StyledNavContainer = styled.nav`
   background-color: #585123;
   padding: 1rem 0;
   z-index: 10;
+  box-shadow: 1px 1px 5px black;
 `;
 
 export const StyledNav = styled.nav`
