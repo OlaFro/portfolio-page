@@ -1,6 +1,6 @@
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
-import { StyledNav, StyledNavContainer } from "../style/StyledCard";
+import { StyledNav, StyledNavContainer } from "../style/StyledNav";
 
 export default function Nav() {
   return (
