@@ -11,8 +11,14 @@ export const StyledCard = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  ${(props) => {
+    if (props.footer) {
+      return `padding-bottom: 4rem`;
+    }
+  }}
 
   ::before {
+    content: "";
     background-color: ${(props) => props.color};
     height: 5rem;
     width: 5rem;
@@ -21,11 +27,12 @@ export const StyledCard = styled.div`
     left: 50%;
     transform: translateX(-50%);
     border-radius: 9999px;
-    ${(props) => {
+
+    /* ${(props) => {
       if (!props.footer) {
         return `content: ""`;
       }
-    }}
+    }} */
   }
 `;
 
@@ -52,23 +59,23 @@ export const StyledTitle = styled.h1`
   font-weight: 900;
 `;
 
-export const StyledNavContainer = styled.nav``;
-
-export const StyledNav = styled.nav`
+export const StyledNavContainer = styled.nav`
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  width: 50%;
+  background-color: #585123;
+  padding: 1rem 0;
   z-index: 10;
+`;
+
+export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-around;
+  width: 50%;
   margin: auto;
   font-size: 1.5rem;
-  margin-top: -2rem;
-  background-color: #585123;
-  padding: 40px 20rem 20px 20rem;
   a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
 `;

@@ -8,5 +8,6 @@ body{
   padding: 0;
   width: 99.9vw;
   font-family: 'Lato', sans-serif;
+
 }
 `;
