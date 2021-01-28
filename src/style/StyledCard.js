@@ -47,7 +47,9 @@ export const ArrowDown = styled(KeyboardArrowDown)`
 export const StyledTitle = styled.h1`
   font-size: 20rem;
   color: white;
-  margin-top: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
 `;
 
 export const StyledNav = styled.nav`
