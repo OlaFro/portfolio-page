@@ -45,17 +45,19 @@ export const ArrowDown = styled(KeyboardArrowDown)`
 `;
 
 export const StyledTitle = styled.h1`
-  font-size: 20rem;
+  font-size: 10rem;
   color: white;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
 `;
 
+export const StyledNavContainer = styled.nav``;
+
 export const StyledNav = styled.nav`
   position: -webkit-sticky;
   position: sticky;
-  top: 40px;
+  top: 0;
   width: 50%;
   z-index: 10;
   display: flex;
@@ -63,7 +65,8 @@ export const StyledNav = styled.nav`
   margin: auto;
   font-size: 1.5rem;
   margin-top: -2rem;
-
+  background-color: #585123;
+  padding: 40px 20rem 20px 20rem;
   a {
     text-decoration: none;
     color: white;
