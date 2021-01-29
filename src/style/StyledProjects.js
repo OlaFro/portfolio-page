@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import project1 from "../img/project1.png";
+import project2 from "../img/project2.png";
 import { Codepen } from "styled-icons/boxicons-logos";
 
 export const StyledProjectsContainer = styled.div`
@@ -26,12 +27,21 @@ export const StyledProject = styled.div`
 `;
 
 export const StyledPic = styled.div`
-  background-image: url(${project1});
-  background-position: center;
+  background-image: ${(props) => {
+    if (props.project1) {
+      return `url(${project1});
+      background-position: center;`;
+    } else {
+      return `url(${project2});
+      background-size: cover;
+      background-position: 70% 30%`;
+    }
+  }};
+
   border: 10px solid white;
   filter: saturate(0);
   transition: filter 250ms ease-in-out;
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   :hover {
     filter: saturate(100%);

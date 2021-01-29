@@ -13,7 +13,7 @@ import {
   StyledTag,
 } from "../style/StyledProjects";
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <div id="projects">
       <StyledCard height="200vh" color="#F58549" zIndex="3" projects>
@@ -39,7 +39,23 @@ export default function Projects() {
                 </div>
               </StyledDescription>
             </StyledProject>
-            <StyledProject />
+            <StyledProject>
+              <StyledPic project2 />
+              <StyledDescription>
+                <StyledTitle>Pomodoro Timer</StyledTitle>
+                <StyledBody>Pomodoro Timer in Vanilla JavaScript</StyledBody>
+                <a href="https://codepen.io/olafro/pen/RwWXzob">
+                  <StyledIconContainer>
+                    <StyledCodepen />
+                  </StyledIconContainer>
+                </a>
+                <div>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>Vanila JS</StyledTag>
+                </div>
+              </StyledDescription>
+            </StyledProject>
             <StyledProject />
             <StyledProject />
             <StyledProject />
