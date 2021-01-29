@@ -3,6 +3,8 @@ import project1 from "../img/project1.png";
 import project2 from "../img/project2.png";
 import project3 from "../img/project3.png";
 import project4 from "../img/project4.png";
+import project5 from "../img/project5.png";
+import project6 from "../img/project6.png";
 import { Codepen, Github, ExternalLink } from "styled-icons/feather";
 
 export const StyledProjectsContainer = styled.div`
@@ -41,8 +43,16 @@ export const StyledPic = styled.div`
       return `url(${project3});
       background-size: cover;
       background-position: 40% 0%`;
-    } else {
+    } else if (props.project4) {
       return `url(${project4});
+      background-size: cover;
+      background-position: 40% 0%`;
+    } else if (props.project5) {
+      return `url(${project5});
+      background-size: cover;
+      background-position: 40% 0%`;
+    } else {
+      return `url(${project6});
       background-size: cover;
       background-position: 40% 0%`;
     }

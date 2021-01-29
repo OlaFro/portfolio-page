@@ -113,8 +113,56 @@ export default function Projects(props) {
                 </StyledIconContainer>
               </StyledDescription>
             </StyledProject>
-            <StyledProject />
-            <StyledProject />
+            <StyledProject>
+              <StyledPic project5 />
+              <StyledDescription>
+                <StyledTitle>Music recommendation app</StyledTitle>
+                <StyledBody>
+                  By consuming Spotify API this app will recommends songs based
+                  on given factors like danceability or mood. Done with ReactJS
+                  and Redux.
+                </StyledBody>
+                <StyledTagContainer>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>ReactJS</StyledTag>
+                  <StyledTag>Hooks</StyledTag>
+                  <StyledTag>Redux</StyledTag>
+                  <StyledTag>Styled-Components</StyledTag>
+                  <StyledTag>API</StyledTag>
+                </StyledTagContainer>
+                <StyledIconContainer>
+                  <a href="https://github.com/OlaFro/SpotifyAPI">
+                    <StyledGithub />
+                  </a>
+
+                  <a href="https://choosify.herokuapp.com/">
+                    <StyledDeploy />
+                  </a>
+                </StyledIconContainer>
+              </StyledDescription>
+            </StyledProject>
+            <StyledProject>
+              <StyledPic project6 />
+              <StyledDescription>
+                <StyledTitle>Portfolio Page</StyledTitle>
+                <StyledBody>
+                  This site designed and built from scratch
+                </StyledBody>
+                <StyledTagContainer>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>ReactJS</StyledTag>
+                  <StyledTag>Hooks</StyledTag>
+                  <StyledTag>Styled-Components</StyledTag>
+                </StyledTagContainer>
+                <StyledIconContainer>
+                  <a href="https://github.com/OlaFro/portfolio-page">
+                    <StyledGithub />
+                  </a>
+                </StyledIconContainer>
+              </StyledDescription>
+            </StyledProject>
           </StyledFlex>
           <ArrowDown />
         </StyledProjectsContainer>
