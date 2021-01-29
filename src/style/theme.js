@@ -1,5 +1,7 @@
-export const hero = "#5085A5";
-export const about = "#d4d7da";
-export const footer = "#31708E";
-export const projects = "#687864";
-export const skills = "#8FC1E3";
+export const theme1 = {
+  hero: "#5085A5",
+  about: "#d4d7da",
+  footer: "#31708E",
+  projects: "#687864",
+  skills: "#8FC1E3",
+};

@@ -6,15 +6,13 @@ import { KeyboardArrowDown } from "styled-icons/material-twotone/";
 export const StyledCard = styled.div`
   background-color: ${(props) => {
     if (props.hero) {
-      return props.theme.hero;
+      return props.theme.theme1.hero;
     } else if (props.about) {
-      return props.theme.about;
+      return props.theme.theme1.about;
     } else if (props.skills) {
-      return props.theme.skills;
-    } else if (props.projects) {
-      return props.theme.projects;
+      return props.theme.theme1.skills;
     } else {
-      return props.theme.footer;
+      return props.theme.theme1.projects;
     }
   }};
 
@@ -28,11 +26,6 @@ export const StyledCard = styled.div`
   align-items: center;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
-  ${(props) => {
-    if (props.footer) {
-      return `padding-bottom: 4rem`;
-    }
-  }}
 
   ::before {
     content: "";

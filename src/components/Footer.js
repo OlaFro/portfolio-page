@@ -1,13 +1,12 @@
 import React from "react";
-import { StyledCard, ArrowDown, StyledH1 } from "../style/StyledCard";
-
+import { StyledH1 } from "../style/StyledCard";
+import { StyledFooter } from "../style/StyledFooter";
 export default function Footer() {
   return (
     <div id="footer">
-      <StyledCard height="25vh" color="#772F1A" zIndex="2" footer="true">
+      <StyledFooter height="25vh" color="#772F1A" zIndex="2">
         <StyledH1>footer</StyledH1>
-        <ArrowDown />
-      </StyledCard>
+      </StyledFooter>
     </div>
   );
 }
