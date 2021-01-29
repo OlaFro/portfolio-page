@@ -1,4 +1,7 @@
 import { GlobalStyle } from "./style/global";
+import { ThemeProvider } from "styled-components";
+import * as theme from "./styled components/theme";
+
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -9,13 +12,15 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <Nav />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <Nav />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Footer />
+      </ThemeProvider>
     </>
   );
 }
