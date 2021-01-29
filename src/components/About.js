@@ -4,9 +4,9 @@ import { StyledCard, ArrowDown, StyledText } from "../style/StyledCard";
 export default function About() {
   return (
     <div id="about">
-      <StyledCard height="25vh" color="#EEC170" zIndex="5" about>
+      <StyledCard height="20vh" color="#EEC170" zIndex="5" about>
         <StyledText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          About about about about about, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in

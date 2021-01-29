@@ -6,13 +6,13 @@ import { KeyboardArrowDown } from "styled-icons/material-twotone/";
 export const StyledCard = styled.div`
   background-color: ${(props) => {
     if (props.hero) {
-      return props.theme.theme1.hero;
+      return props.theme.theme2.hero;
     } else if (props.about) {
-      return props.theme.theme1.about;
+      return props.theme.theme2.about;
     } else if (props.skills) {
-      return props.theme.theme1.skills;
+      return props.theme.theme2.skills;
     } else {
-      return props.theme.theme1.projects;
+      return props.theme.theme2.projects;
     }
   }};
 
@@ -22,7 +22,7 @@ export const StyledCard = styled.div`
   color: white;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
@@ -46,9 +46,11 @@ export const StyledCard = styled.div`
     content: "";
     background-color: inherit;
     width: 6rem;
-    height: 2rem;
+    height: 2.5rem;
     position: absolute;
     bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 `;
 
@@ -96,8 +98,8 @@ export const StyledH2 = styled.h2`
 `;
 
 export const StyledText = styled.p`
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: grey;
-
   width: 50%;
+  padding: 1rem;
 `;
