@@ -29,6 +29,11 @@ export const StyledPic = styled.div`
   background-image: url(${project1});
   background-position: center;
   border: 10px solid white;
+  filter: saturate(0);
+  transition: filter 250ms ease-in-out;
+  :hover {
+    filter: saturate(100%);
+  }
 `;
 
 export const StyledDescription = styled.div`
