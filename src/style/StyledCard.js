@@ -6,13 +6,13 @@ import { KeyboardArrowDown } from "styled-icons/material-twotone/";
 export const StyledCard = styled.div`
   background-color: ${(props) => {
     if (props.hero) {
-      return props.theme.theme2.hero;
+      return props.theme.theme4.hero;
     } else if (props.about) {
-      return props.theme.theme2.about;
+      return props.theme.theme4.about;
     } else if (props.skills) {
-      return props.theme.theme2.skills;
+      return props.theme.theme4.skills;
     } else {
-      return props.theme.theme2.projects;
+      return props.theme.theme4.projects;
     }
   }};
 
@@ -24,8 +24,8 @@ export const StyledCard = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
-    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15); */
 
   ::before {
     content: "";
@@ -37,12 +37,12 @@ export const StyledCard = styled.div`
     left: 50%;
     transform: translateX(-50%);
     border-radius: 9999px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
       0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
-      0 16px 16px rgba(0, 0, 0, 0.12);
+      0 16px 16px rgba(0, 0, 0, 0.12); */
   }
 
-  ::after {
+  /* ::after {
     content: "";
     background-color: inherit;
     width: 6rem;
@@ -51,7 +51,7 @@ export const StyledCard = styled.div`
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-  }
+  } */
 `;
 
 export const ArrowDown = styled(KeyboardArrowDown)`

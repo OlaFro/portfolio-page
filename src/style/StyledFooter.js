@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.div`
-  background-color: ${(props) => props.theme.theme2.footer};
+  background-color: ${(props) => props.theme.theme4.footer};
   width: 100%;
   height: ${(props) => props.height};
   z-index: ${(props) => props.zIndex};
