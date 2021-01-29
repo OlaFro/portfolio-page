@@ -2,6 +2,7 @@ import styled from "styled-components";
 import project1 from "../img/project1.png";
 import project2 from "../img/project2.png";
 import project3 from "../img/project3.png";
+import project4 from "../img/project4.png";
 import { Codepen, Github, ExternalLink } from "styled-icons/feather";
 
 export const StyledProjectsContainer = styled.div`
@@ -36,8 +37,12 @@ export const StyledPic = styled.div`
       return `url(${project2});
       background-size: cover;
       background-position: 70% 30%`;
-    } else {
+    } else if (props.project3) {
       return `url(${project3});
+      background-size: cover;
+      background-position: 40% 0%`;
+    } else {
+      return `url(${project4});
       background-size: cover;
       background-position: 40% 0%`;
     }
@@ -80,8 +85,8 @@ export const StyledIconContainer = styled.div`
 
 export const StyledCodepen = styled(Codepen)`
   color: ${(props) => props.theme.theme4.footer};
-  height: 2rem;
-  width: 2rem;
+  height: 2.3rem;
+  width: 2.3rem;
   cursor: pointer;
   :hover {
     color: ${(props) => props.theme.theme4.projects};
@@ -115,12 +120,11 @@ export const StyledTagContainer = styled.div`
 `;
 
 export const StyledTag = styled.span`
-  background-color: ${(props) => props.theme.theme4.skills};
+  background-color: ${(props) => props.theme.theme4.hero};
   font-size: 0.8rem;
-  padding: 5px 10px;
+  padding: 3px 5px;
   height: 1.5rem;
   margin: 0 10px 0px 0;
   display: flex;
-
   align-items: center;
 `;

@@ -85,7 +85,34 @@ export default function Projects(props) {
                 </StyledIconContainer>
               </StyledDescription>
             </StyledProject>
-            <StyledProject />
+            <StyledProject>
+              <StyledPic project4 />
+              <StyledDescription>
+                <StyledTitle>Palette Generator</StyledTitle>
+                <StyledBody>
+                  Color palette generator done with ReactJS and hooks. Many
+                  features like for example drag&drop and automatically
+                  generated shades
+                </StyledBody>
+                <StyledTagContainer>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>ReactJS</StyledTag>
+                  <StyledTag>Hooks</StyledTag>
+                  <StyledTag>chroma.js</StyledTag>
+                  <StyledTag>withStyles</StyledTag>
+                </StyledTagContainer>
+                <StyledIconContainer>
+                  <a href="https://github.com/OlaFro/React-color-palette-generator">
+                    <StyledGithub />
+                  </a>
+
+                  <a href="https://palette-generator.vercel.app/">
+                    <StyledDeploy />
+                  </a>
+                </StyledIconContainer>
+              </StyledDescription>
+            </StyledProject>
             <StyledProject />
             <StyledProject />
           </StyledFlex>
