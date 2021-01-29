@@ -1,9 +1,16 @@
 import React from "react";
-import { StyledCard, ArrowDown, StyledH1 } from "../style/StyledCard";
+import {
+  StyledCard,
+  ArrowDown,
+  StyledH1,
+  StyledH2,
+  StyledText,
+} from "../style/StyledCard";
 import {
   StyledSkillsContainer,
   IconStyleWrapper,
   StyledSkill,
+  StyledAddition,
 } from "../style/StyledSkills";
 import {
   Html5,
@@ -78,6 +85,12 @@ export default function Skills() {
               <p>Adobe CC</p>
             </StyledSkill>
           </IconStyleWrapper>
+          <StyledAddition>
+            <StyledText skills>
+              Fluent in speaking and writing in <strong>English</strong>,{" "}
+              <strong>German</strong> & <strong>Polish</strong>.
+            </StyledText>
+          </StyledAddition>
         </StyledSkillsContainer>
         <ArrowDown />
       </StyledCard>

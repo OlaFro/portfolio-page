@@ -75,10 +75,14 @@ export const ArrowDown = styled(KeyboardArrowDown)`
 export const StyledH1 = styled.h1`
   font-size: 5rem;
   margin: 20px;
+  padding: 10px;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   text-align: center;
   text-shadow: 0 6px 5px rgba(0, 0, 0, 0.3);
+  line-height: 1;
+  text-decoration: wavy underline ${(props) => props.theme.theme4.projects};
+  cursor: pointer;
 `;
 
 export const StyledH2 = styled.h2`
@@ -98,8 +102,7 @@ export const StyledH2 = styled.h2`
 `;
 
 export const StyledText = styled.p`
-  font-size: 1rem;
-  color: grey;
-  width: 50%;
+  font-size: 2rem;
+  color: ${(props) => (props.skills ? "white" : "grey")};
   padding: 1rem;
 `;
