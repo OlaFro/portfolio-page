@@ -10,6 +10,7 @@ import {
   StyledBody,
   StyledIconContainer,
   StyledCodepen,
+  StyledTag,
 } from "../style/StyledProjects";
 
 export default function Projects() {
@@ -24,12 +25,16 @@ export default function Projects() {
               <StyledDescription>
                 <StyledTitle>Toggle button</StyledTitle>
                 <StyledBody>
-                  This is toggle button that I styled in CSS. Visit my CodePen
-                  to see the project!
+                  This is a toggle button that I've styled in CSS. Visit my
+                  CodePen to see the project!
                 </StyledBody>
-                <StyledIconContainer>
-                  <StyledCodepen />
-                </StyledIconContainer>
+                <a href="https://codepen.io/olafro/pen/RwWXzob">
+                  <StyledIconContainer>
+                    <StyledCodepen />
+                  </StyledIconContainer>
+                </a>
+                <StyledTag>HTML5</StyledTag>
+                <StyledTag>CSS3</StyledTag>
               </StyledDescription>
             </StyledProject>
             <StyledProject />

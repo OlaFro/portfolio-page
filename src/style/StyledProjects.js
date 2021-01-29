@@ -59,4 +59,14 @@ export const StyledCodepen = styled(Codepen)`
   color: ${(props) => props.theme.theme4.footer};
   height: 2rem;
   width: 2rem;
+  cursor: pointer;
+  :hover {
+    color: ${(props) => props.theme.theme4.projects};
+  }
+`;
+
+export const StyledTag = styled.span`
+  background-color: ${(props) => props.theme.theme4.footer};
+  padding: 5px 10px;
+  margin-right: 5px;
 `;
