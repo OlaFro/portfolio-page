@@ -24,6 +24,7 @@ export default function Skills() {
       <StyledCard height="75vh" color="#F2A65A" zIndex="4" skills>
         <StyledSkillsContainer>
           <StyledH1>skills</StyledH1>
+
           <IconStyleWrapper>
             <Html5 title="html5" />
             <Css3 title="css3" />

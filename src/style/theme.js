@@ -32,7 +32,7 @@ export const theme4 = {
 
 export const theme5 = {
   hero: "#a0d2eb",
-  about: "#e5eaf5",
+  about: "#d9dce2",
   skills: "#d0bdf4",
   projects: "#8458B3",
   footer: "#494d5f",
