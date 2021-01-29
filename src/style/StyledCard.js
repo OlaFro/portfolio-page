@@ -22,10 +22,10 @@ export const StyledCard = styled.div`
   color: white;
   position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
-    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 
   ::before {
     content: "";
@@ -37,12 +37,12 @@ export const StyledCard = styled.div`
     left: 50%;
     transform: translateX(-50%);
     border-radius: 9999px;
-    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
       0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
-      0 16px 16px rgba(0, 0, 0, 0.12); */
+      0 16px 16px rgba(0, 0, 0, 0.12);
   }
 
-  /* ::after {
+  ::after {
     content: "";
     background-color: inherit;
     width: 6rem;
@@ -51,7 +51,7 @@ export const StyledCard = styled.div`
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-  } */
+  }
 `;
 
 export const ArrowDown = styled(KeyboardArrowDown)`

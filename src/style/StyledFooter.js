@@ -8,6 +8,6 @@ export const StyledFooter = styled.div`
   color: white;
   margin-top: 0;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 `;
