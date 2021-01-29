@@ -1,6 +1,6 @@
 import { GlobalStyle } from "./style/global";
 import { ThemeProvider } from "styled-components";
-import * as theme from "./styled components/theme";
+import * as theme from "./style/theme";
 
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";

@@ -4,9 +4,22 @@ import { KeyboardArrowDown } from "styled-icons/material-twotone/";
 // styles for the card components
 
 export const StyledCard = styled.div`
+  background-color: ${(props) => {
+    if (props.hero) {
+      return props.theme.hero;
+    } else if (props.about) {
+      return props.theme.about;
+    } else if (props.skills) {
+      return props.theme.skills;
+    } else if (props.projects) {
+      return props.theme.projects;
+    } else {
+      return props.theme.footer;
+    }
+  }};
+
   width: 100%;
   height: ${(props) => props.height};
-  background-color: ${(props) => props.color};
   z-index: ${(props) => props.zIndex};
   color: white;
   position: relative;
@@ -23,7 +36,7 @@ export const StyledCard = styled.div`
 
   ::before {
     content: "";
-    background-color: ${(props) => props.color};
+    background-color: inherit;
     height: 5rem;
     width: 5rem;
     position: absolute;

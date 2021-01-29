@@ -2,10 +2,10 @@ import React from "react";
 import { StyledCard, ArrowDown, StyledH1, StyledH2 } from "../style/StyledCard";
 import { StyledHeroContainer } from "../style/StyledHero";
 
-export default function Hero() {
+export default function Hero(props) {
   return (
     <div id="home">
-      <StyledCard height="85vh" color="#585123" zIndex="6">
+      <StyledCard height="85vh" zIndex="6" hero>
         <StyledHeroContainer>
           <StyledH1> &lt; Hej /&gt;</StyledH1>
           <StyledH2 title="hero">
