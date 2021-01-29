@@ -33,8 +33,10 @@ export default function Projects() {
                     <StyledCodepen />
                   </StyledIconContainer>
                 </a>
-                <StyledTag>HTML5</StyledTag>
-                <StyledTag>CSS3</StyledTag>
+                <div>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                </div>
               </StyledDescription>
             </StyledProject>
             <StyledProject />

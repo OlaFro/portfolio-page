@@ -31,28 +31,36 @@ export const StyledPic = styled.div`
   border: 10px solid white;
   filter: saturate(0);
   transition: filter 250ms ease-in-out;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
   :hover {
     filter: saturate(100%);
+    box-shadow: none;
   }
 `;
 
 export const StyledDescription = styled.div`
   background-color: ${(props) => props.theme.theme4.about};
   padding: 20px;
+
+  display: grid;
+  grid-template-rows: 3rem 1fr auto 3rem;
 `;
 
 export const StyledTitle = styled.h3`
   color: ${(props) => props.theme.theme4.footer};
   font-family: "Raleway", sans-serif;
   font-weight: 900;
+  margin: 10px 0;
 `;
 
-export const StyledBody = styled.span`
+export const StyledBody = styled.div`
   color: ${(props) => props.theme.theme4.footer};
 `;
 
 export const StyledIconContainer = styled.div`
   padding: 0.5rem 0;
+  margin: 10px 0;
 `;
 
 export const StyledCodepen = styled(Codepen)`
