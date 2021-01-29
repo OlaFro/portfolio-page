@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import project1 from "../img/project1.png";
 import project2 from "../img/project2.png";
-import { Codepen } from "styled-icons/boxicons-logos";
+import { Codepen, Github, ExternalLink } from "styled-icons/feather";
 
 export const StyledProjectsContainer = styled.div`
   display: grid;
@@ -77,6 +77,25 @@ export const StyledCodepen = styled(Codepen)`
   color: ${(props) => props.theme.theme4.footer};
   height: 2rem;
   width: 2rem;
+  cursor: pointer;
+  :hover {
+    color: ${(props) => props.theme.theme4.projects};
+  }
+`;
+export const StyledDeploy = styled(ExternalLink)`
+  color: ${(props) => props.theme.theme4.footer};
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  :hover {
+    color: ${(props) => props.theme.theme4.projects};
+  }
+`;
+export const StyledGithub = styled(Github)`
+  color: ${(props) => props.theme.theme4.footer};
+  height: 2rem;
+  width: 2rem;
+  margin-right: 10px;
   cursor: pointer;
   :hover {
     color: ${(props) => props.theme.theme4.projects};

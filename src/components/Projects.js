@@ -10,6 +10,8 @@ import {
   StyledBody,
   StyledIconContainer,
   StyledCodepen,
+  StyledDeploy,
+  StyledGithub,
   StyledTag,
 } from "../style/StyledProjects";
 
@@ -28,11 +30,11 @@ export default function Projects(props) {
                   This is a toggle button that I've styled in CSS. Visit my
                   CodePen to see the project!
                 </StyledBody>
-                <a href="https://codepen.io/olafro/pen/RwWXzob">
-                  <StyledIconContainer>
+                <StyledIconContainer>
+                  <a href="https://codepen.io/olafro/pen/RwWXzob">
                     <StyledCodepen />
-                  </StyledIconContainer>
-                </a>
+                  </a>
+                </StyledIconContainer>
                 <div>
                   <StyledTag>HTML5</StyledTag>
                   <StyledTag>CSS3</StyledTag>
@@ -44,11 +46,15 @@ export default function Projects(props) {
               <StyledDescription>
                 <StyledTitle>Pomodoro Timer</StyledTitle>
                 <StyledBody>Pomodoro Timer in Vanilla JavaScript</StyledBody>
-                <a href="https://codepen.io/olafro/pen/RwWXzob">
-                  <StyledIconContainer>
-                    <StyledCodepen />
-                  </StyledIconContainer>
-                </a>
+                <StyledIconContainer>
+                  <a href="https://github.com/OlaFro/Pomodoro-Timer">
+                    <StyledGithub />
+                  </a>
+
+                  <a href="https://olafro.github.io/Pomodoro-Timer/">
+                    <StyledDeploy />
+                  </a>
+                </StyledIconContainer>
                 <div>
                   <StyledTag>HTML5</StyledTag>
                   <StyledTag>CSS3</StyledTag>
