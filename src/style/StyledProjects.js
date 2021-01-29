@@ -59,7 +59,7 @@ export const StyledDescription = styled.div`
   padding: 20px;
 
   display: grid;
-  grid-template-rows: 3rem 1fr auto 3rem;
+  grid-template-rows: 3rem auto auto 3rem;
 `;
 
 export const StyledTitle = styled.h3`
@@ -107,8 +107,20 @@ export const StyledGithub = styled(Github)`
   }
 `;
 
+export const StyledTagContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: start;
+`;
+
 export const StyledTag = styled.span`
-  background-color: ${(props) => props.theme.theme4.footer};
+  background-color: ${(props) => props.theme.theme4.skills};
+  font-size: 0.8rem;
   padding: 5px 10px;
-  margin-right: 5px;
+  height: 1.5rem;
+  margin: 0 10px 0px 0;
+  display: flex;
+
+  align-items: center;
 `;

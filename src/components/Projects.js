@@ -12,6 +12,7 @@ import {
   StyledCodepen,
   StyledDeploy,
   StyledGithub,
+  StyledTagContainer,
   StyledTag,
 } from "../style/StyledProjects";
 
@@ -30,15 +31,15 @@ export default function Projects(props) {
                   This is a toggle button that I've styled in CSS. Visit my
                   CodePen to see the project!
                 </StyledBody>
+                <StyledTagContainer>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                </StyledTagContainer>
                 <StyledIconContainer>
                   <a href="https://codepen.io/olafro/pen/RwWXzob">
                     <StyledCodepen />
                   </a>
                 </StyledIconContainer>
-                <div>
-                  <StyledTag>HTML5</StyledTag>
-                  <StyledTag>CSS3</StyledTag>
-                </div>
               </StyledDescription>
             </StyledProject>
             <StyledProject>
@@ -46,6 +47,11 @@ export default function Projects(props) {
               <StyledDescription>
                 <StyledTitle>Pomodoro Timer</StyledTitle>
                 <StyledBody>Pomodoro Timer in Vanilla JavaScript</StyledBody>
+                <StyledTagContainer>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>Vanila JS</StyledTag>
+                </StyledTagContainer>
                 <StyledIconContainer>
                   <a href="https://github.com/OlaFro/Pomodoro-Timer">
                     <StyledGithub />
@@ -55,11 +61,6 @@ export default function Projects(props) {
                     <StyledDeploy />
                   </a>
                 </StyledIconContainer>
-                <div>
-                  <StyledTag>HTML5</StyledTag>
-                  <StyledTag>CSS3</StyledTag>
-                  <StyledTag>Vanila JS</StyledTag>
-                </div>
               </StyledDescription>
             </StyledProject>
             <StyledProject>
@@ -67,6 +68,12 @@ export default function Projects(props) {
               <StyledDescription>
                 <StyledTitle>To-do App</StyledTitle>
                 <StyledBody>Done with ReactJS and class components</StyledBody>
+                <StyledTagContainer>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>ReactJS</StyledTag>
+                  <StyledTag>Class Components</StyledTag>
+                </StyledTagContainer>
                 <StyledIconContainer>
                   <a href="https://github.com/OlaFro/React-to-do">
                     <StyledGithub />
@@ -76,12 +83,6 @@ export default function Projects(props) {
                     <StyledDeploy />
                   </a>
                 </StyledIconContainer>
-                <div>
-                  <StyledTag>HTML5</StyledTag>
-                  <StyledTag>CSS3</StyledTag>
-                  <StyledTag>ReactJS</StyledTag>
-                  <StyledTag>Class Components</StyledTag>
-                </div>
               </StyledDescription>
             </StyledProject>
             <StyledProject />
