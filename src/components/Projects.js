@@ -62,7 +62,28 @@ export default function Projects(props) {
                 </div>
               </StyledDescription>
             </StyledProject>
-            <StyledProject />
+            <StyledProject>
+              <StyledPic project3 />
+              <StyledDescription>
+                <StyledTitle>To-do App</StyledTitle>
+                <StyledBody>Done with ReactJS and class components</StyledBody>
+                <StyledIconContainer>
+                  <a href="https://github.com/OlaFro/React-to-do">
+                    <StyledGithub />
+                  </a>
+
+                  <a href="https://olafro.github.io/React-to-do/">
+                    <StyledDeploy />
+                  </a>
+                </StyledIconContainer>
+                <div>
+                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>ReactJS</StyledTag>
+                  <StyledTag>Class Components</StyledTag>
+                </div>
+              </StyledDescription>
+            </StyledProject>
             <StyledProject />
             <StyledProject />
             <StyledProject />

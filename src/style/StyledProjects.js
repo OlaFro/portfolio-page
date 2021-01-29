@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import project1 from "../img/project1.png";
 import project2 from "../img/project2.png";
+import project3 from "../img/project3.png";
 import { Codepen, Github, ExternalLink } from "styled-icons/feather";
 
 export const StyledProjectsContainer = styled.div`
@@ -31,10 +32,14 @@ export const StyledPic = styled.div`
     if (props.project1) {
       return `url(${project1});
       background-position: center;`;
-    } else {
+    } else if (props.project2) {
       return `url(${project2});
       background-size: cover;
       background-position: 70% 30%`;
+    } else {
+      return `url(${project3});
+      background-size: cover;
+      background-position: 40% 0%`;
     }
   }};
 
