@@ -1,6 +1,10 @@
 import React from "react";
 import { StyledCard, ArrowDown, StyledH1 } from "../style/StyledCard";
-import { StyledSkillsContainer, IconStyleWrapper } from "../style/StyledSkills";
+import {
+  StyledSkillsContainer,
+  IconStyleWrapper,
+  StyledSkill,
+} from "../style/StyledSkills";
 import {
   Html5,
   Css3,
@@ -24,20 +28,55 @@ export default function Skills() {
       <StyledCard height="75vh" color="#F2A65A" zIndex="4" skills>
         <StyledSkillsContainer>
           <StyledH1>skills</StyledH1>
-
           <IconStyleWrapper>
-            <Html5 title="html5" />
-            <Css3 title="css3" />
-            <Sass title="sass" />
-            <Javascript title="javascript" />
-            <ReactLogo title="react" />
-            <Redux title="redux" />
-            <StyledComponents title="styled-components" />
-            <Nodejs title="node.js" />
-            <Express title="express" />
-            <Mongodb title="mongoDB" />
-            <Git title="git" />
-            <Adobecreativecloud title="adobe CC" />
+            <StyledSkill>
+              <Html5 title="html5" />
+              <p>HTML 5</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Css3 title="css3" />
+              <p>CSS</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Sass title="sass" />
+              <p>Sass</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Javascript title="javascript" />
+              <p>JavaScript</p>
+            </StyledSkill>
+            <StyledSkill>
+              <ReactLogo title="react" />
+              <p>React</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Redux title="redux" />
+              <p>Redux</p>
+            </StyledSkill>
+            <StyledSkill>
+              <StyledComponents title="styled-components" />
+              <p>Styled-components</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Nodejs title="node.js" />
+              <p>Node.js</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Express title="express" />
+              <p>Express</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Mongodb title="mongoDB" />
+              <p>MongoDB</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Git title="git" />
+              <p>Git</p>
+            </StyledSkill>
+            <StyledSkill>
+              <Adobecreativecloud title="adobe CC" />
+              <p>Adobe CC</p>
+            </StyledSkill>
           </IconStyleWrapper>
         </StyledSkillsContainer>
         <ArrowDown />

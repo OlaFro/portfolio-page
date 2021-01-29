@@ -9,7 +9,8 @@ export default function Hero(props) {
         {/* <StyledH1>hero</StyledH1>
         <ArrowDown /> */}
         <StyledHeroContainer>
-          <StyledH1> &lt; Hej /&gt;</StyledH1>
+          <StyledH1>Halko</StyledH1>
+          {/* <StyledH1> &lt; Hej /&gt;</StyledH1> */}
           <StyledH2 title="hero">
             My name is Ola and I'm certified <br></br>Full-Stack Web Developer.
           </StyledH2>
