@@ -11,7 +11,7 @@ export const StyledProjectsContainer = styled.div`
   display: grid;
   grid-template-rows: 15% auto;
   width: 80%;
-  height: 80%;
+  height: 100%;
 `;
 
 export const StyledFlex = styled.div`
@@ -50,7 +50,7 @@ export const StyledPic = styled.div`
     } else if (props.project5) {
       return `url(${project5});
       background-size: cover;
-      background-position: 40% 0%`;
+      background-position: 33% 0%`;
     } else {
       return `url(${project6});
       background-size: cover;

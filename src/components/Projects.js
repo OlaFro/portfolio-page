@@ -19,7 +19,7 @@ import {
 export default function Projects(props) {
   return (
     <div id="projects">
-      <StyledCard height="200vh" color="#F58549" zIndex="3" projects>
+      <StyledCard height="210vh" color="#F58549" zIndex="3" projects>
         <StyledProjectsContainer>
           <StyledH1>projects</StyledH1>
           <StyledFlex>
