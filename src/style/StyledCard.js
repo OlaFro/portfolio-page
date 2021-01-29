@@ -53,7 +53,7 @@ export const StyledCard = styled.div`
     content: "";
     background-color: inherit;
     width: 6rem;
-    height: 3rem;
+    height: 2rem;
     position: absolute;
     bottom: 0;
   }
@@ -78,7 +78,7 @@ export const ArrowDown = styled(KeyboardArrowDown)`
 // Typography styles
 
 export const StyledH1 = styled.h1`
-  font-size: 20rem;
+  font-size: 5rem;
   margin: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
@@ -104,4 +104,7 @@ export const StyledH2 = styled.h2`
 
 export const StyledText = styled.p`
   font-size: 1.5rem;
+  color: grey;
+
+  width: 50%;
 `;

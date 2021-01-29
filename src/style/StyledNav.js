@@ -4,7 +4,7 @@ export const StyledNavContainer = styled.nav`
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #585123;
+  background-color: ${(props) => props.theme.hero};
   padding: 1rem 0;
   z-index: 10;
   box-shadow: 1px 1px 5px black;
