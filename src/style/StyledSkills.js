@@ -11,8 +11,14 @@ export const IconStyleWrapper = styled.div`
   ${StyledIconBase} {
     height: 4rem;
     width: 4rem;
+    + p {
+      opacity: 0;
+    }
     :hover {
       color: ${(props) => props.theme.theme4.projects};
+      + p {
+        opacity: 1;
+      }
     }
   }
 
@@ -24,8 +30,4 @@ export const StyledSkill = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  & + p {
-    opacity: 0;
-  }
 `;
