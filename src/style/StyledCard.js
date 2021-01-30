@@ -87,7 +87,7 @@ export const StyledH1 = styled.h1`
 
 export const StyledH2 = styled.h2`
   font-size: 2.5rem;
-  margin: 10px;
+  margin: 10px 0;
   padding: 1rem;
   text-align: center;
   line-height: 1.15;
@@ -116,12 +116,23 @@ export const StyledH3 = styled.h3`
   font-size: 1.2rem;
 `;
 
-export const StyledBody = styled.div`
-  color: ${(props) => props.theme.theme4.footer};
-`;
-
 export const StyledText = styled.p`
   font-size: 2rem;
   color: ${(props) => (props.skills ? "white" : "grey")};
   padding: 1rem;
+`;
+
+export const StyledBody = styled.div`
+  color: ${(props) => {
+    if (props.footer) {
+      return props.theme.theme4.about;
+    } else {
+      return props.theme.theme4.footer;
+    }
+  }};
+  ${(props) => {
+    if (props.pin) {
+      return `display: inline`;
+    }
+  }}
 `;

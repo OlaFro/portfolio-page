@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Linkedin, MapPin } from "styled-icons/feather";
 
 export const StyledFooter = styled.div`
-  background-color: ${(props) => props.theme.theme4.footer};
+  background: linear-gradient(${(props) => props.theme.theme4.footer}, black);
   width: 100%;
   height: ${(props) => props.height};
   z-index: ${(props) => props.zIndex};
@@ -24,7 +24,6 @@ export const StyledContact = styled.div`
   justify-content: space-between;
   width: 40%;
   margin: auto;
-  border: 1px solid green;
 `;
 
 export const StyledLinkedIn = styled(Linkedin)`
