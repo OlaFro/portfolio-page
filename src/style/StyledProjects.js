@@ -112,7 +112,13 @@ export const StyledDeploy = styled(ExternalLink)`
   }
 `;
 export const StyledGithub = styled(Github)`
-  color: ${(props) => props.theme.theme4.footer};
+  color: ${(props) => {
+    if (props.footer) {
+      return props.theme.theme4.about;
+    } else {
+      return props.theme.theme4.footer;
+    }
+  }};
   height: 2rem;
   width: 2rem;
   margin-right: 10px;

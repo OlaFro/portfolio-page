@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Linkedin } from "styled-icons/feather";
 
 export const StyledFooter = styled.div`
   background-color: ${(props) => props.theme.theme4.footer};
@@ -8,6 +9,22 @@ export const StyledFooter = styled.div`
   color: white;
   margin-top: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+`;
+
+export const StyledContactContainer = styled.div`
+  height: 40%;
+  width: 80%;
+  border: 1px solid white;
+  margin: auto;
+`;
+
+export const StyledContact = styled.div``;
+
+export const StyledLinkedIn = styled(Linkedin)`
+  color: white;
+  height: 2rem;
+  width: 2rem;
 `;

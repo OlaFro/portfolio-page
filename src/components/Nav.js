@@ -19,7 +19,7 @@ export default function Nav() {
           Projects
         </NavHashLink>
         <NavHashLink smooth to="#footer">
-          Footer
+          Contact
         </NavHashLink>
       </StyledNav>
     </StyledNavContainer>

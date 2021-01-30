@@ -155,11 +155,10 @@ export default function Projects(props) {
                   This website built from scratch with ReactJS.
                 </StyledBody>
                 <StyledTagContainer>
-                  <StyledTag>HTML5</StyledTag>
-                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>JSX</StyledTag>
+                  <StyledTag>Styled-Components</StyledTag>
                   <StyledTag>ReactJS</StyledTag>
                   <StyledTag>Hooks</StyledTag>
-                  <StyledTag>Styled-Components</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
                   <a href="https://github.com/OlaFro/portfolio-page">
