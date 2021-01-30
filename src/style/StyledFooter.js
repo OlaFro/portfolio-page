@@ -24,7 +24,11 @@ export const StyledContactContainer = styled.div`
 export const StyledContact = styled.div``;
 
 export const StyledLinkedIn = styled(Linkedin)`
-  color: white;
+  color: ${(props) => props.theme.theme4.about};
   height: 2rem;
   width: 2rem;
+  cursor: pointer;
+  :hover {
+    color: ${(props) => props.theme.theme4.projects};
+  }
 `;
