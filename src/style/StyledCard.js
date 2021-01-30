@@ -55,7 +55,13 @@ export const StyledCard = styled.div`
 `;
 
 export const ArrowDown = styled(KeyboardArrowDown)`
-  color: white;
+  color: ${(props) => {
+    if (props.about) {
+      return props.theme.theme4.footer;
+    } else {
+      return props.theme.theme4.about;
+    }
+  }};
   height: 2rem;
   position: absolute;
   bottom: 0;
