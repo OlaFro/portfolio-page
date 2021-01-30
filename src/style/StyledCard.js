@@ -80,8 +80,7 @@ export const StyledH1 = styled.h1`
   font-weight: 900;
   text-align: center;
   text-shadow: 0 6px 5px rgba(0, 0, 0, 0.3);
-  /* text-decoration: wavy underline ${(props) =>
-    props.theme.theme4.projects}; */
+
   cursor: pointer;
 `;
 
@@ -93,6 +92,8 @@ export const StyledH2 = styled.h2`
   line-height: 1.15;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
+  /* text-decoration: wavy underline ${(props) =>
+    props.theme.theme4.projects}; */
 
   ${(props) => {
     if (props.title === "hero") {
@@ -134,5 +135,5 @@ export const StyledBody = styled.div`
     if (props.pin) {
       return `display: inline`;
     }
-  }}
+  }};
 `;

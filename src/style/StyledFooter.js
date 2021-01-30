@@ -24,6 +24,9 @@ export const StyledContact = styled.div`
   justify-content: space-between;
   width: 40%;
   margin: auto;
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const StyledLinkedIn = styled(Linkedin)`
@@ -39,8 +42,4 @@ export const StyledPin = styled(MapPin)`
   color: ${(props) => props.theme.theme4.about};
   height: 2rem;
   width: 2rem;
-  cursor: pointer;
-  :hover {
-    color: ${(props) => props.theme.theme4.projects};
-  }
 `;
