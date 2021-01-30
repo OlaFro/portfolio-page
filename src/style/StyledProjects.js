@@ -72,7 +72,6 @@ export const StyledPic = styled.div`
 export const StyledDescription = styled.div`
   background-color: ${(props) => props.theme.theme4.about};
   padding: 20px;
-
   display: grid;
   grid-template-rows: 3rem auto auto 3rem;
 `;
@@ -127,6 +126,7 @@ export const StyledTagContainer = styled.div`
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: start;
+  height: 5rem;
 `;
 
 export const StyledTag = styled.span`

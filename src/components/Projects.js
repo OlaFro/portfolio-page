@@ -28,8 +28,8 @@ export default function Projects(props) {
               <StyledDescription>
                 <StyledTitle>Toggle button</StyledTitle>
                 <StyledBody>
-                  This is a toggle button that I've styled in CSS. Visit my
-                  CodePen to see the project!
+                  Custom toggle button made with psuedo-elements and styled in
+                  CSS.
                 </StyledBody>
                 <StyledTagContainer>
                   <StyledTag>HTML5</StyledTag>
@@ -46,7 +46,10 @@ export default function Projects(props) {
               <StyledPic project2 />
               <StyledDescription>
                 <StyledTitle>Pomodoro Timer</StyledTitle>
-                <StyledBody>Pomodoro Timer in Vanilla JavaScript</StyledBody>
+                <StyledBody>
+                  A tool counting down a time amount given by the user in
+                  multiple sessions. Done in Vanilla JavaScript.
+                </StyledBody>
                 <StyledTagContainer>
                   <StyledTag>HTML5</StyledTag>
                   <StyledTag>CSS3</StyledTag>
@@ -67,9 +70,12 @@ export default function Projects(props) {
               <StyledPic project3 />
               <StyledDescription>
                 <StyledTitle>To-do App</StyledTitle>
-                <StyledBody>Done with ReactJS and class components</StyledBody>
+                <StyledBody>
+                  An app to keep track on task. An option to edit and set task
+                  as done. Made with ReactJS and class components.
+                </StyledBody>
                 <StyledTagContainer>
-                  <StyledTag>HTML5</StyledTag>
+                  <StyledTag>JSX</StyledTag>
                   <StyledTag>CSS3</StyledTag>
                   <StyledTag>ReactJS</StyledTag>
                   <StyledTag>Class Components</StyledTag>
@@ -90,17 +96,16 @@ export default function Projects(props) {
               <StyledDescription>
                 <StyledTitle>Palette Generator</StyledTitle>
                 <StyledBody>
-                  Color palette generator done with ReactJS and hooks. Many
-                  features like for example drag&drop and automatically
-                  generated shades
+                  Color palette generator made with ReactJS and Hooks. Many
+                  different features: drag&drop or automatically generated
+                  shades.
                 </StyledBody>
                 <StyledTagContainer>
-                  <StyledTag>HTML5</StyledTag>
-                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>JSX</StyledTag>
+                  <StyledTag>withStyles</StyledTag>
                   <StyledTag>ReactJS</StyledTag>
                   <StyledTag>Hooks</StyledTag>
                   <StyledTag>chroma.js</StyledTag>
-                  <StyledTag>withStyles</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
                   <a href="https://github.com/OlaFro/React-color-palette-generator">
@@ -119,17 +124,17 @@ export default function Projects(props) {
                 <StyledTitle>Music recommendation app</StyledTitle>
                 <StyledBody>
                   By consuming Spotify API this app will recommends songs based
-                  on given factors like danceability or mood. Done with ReactJS
-                  and Redux.
+                  on given factors like danceability or mood. Done with ReactJS,
+                  Redux and Express.js.
                 </StyledBody>
                 <StyledTagContainer>
-                  <StyledTag>HTML5</StyledTag>
-                  <StyledTag>CSS3</StyledTag>
+                  <StyledTag>JSX</StyledTag>
+                  <StyledTag>Styled-Components</StyledTag>
                   <StyledTag>ReactJS</StyledTag>
                   <StyledTag>Hooks</StyledTag>
                   <StyledTag>Redux</StyledTag>
-                  <StyledTag>Styled-Components</StyledTag>
                   <StyledTag>API</StyledTag>
+                  <StyledTag>Express.js</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
                   <a href="https://github.com/OlaFro/SpotifyAPI">
@@ -147,7 +152,7 @@ export default function Projects(props) {
               <StyledDescription>
                 <StyledTitle>Portfolio Page</StyledTitle>
                 <StyledBody>
-                  This site designed and built from scratch
+                  This website built from scratch with ReactJS.
                 </StyledBody>
                 <StyledTagContainer>
                   <StyledTag>HTML5</StyledTag>
