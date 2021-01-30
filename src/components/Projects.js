@@ -1,13 +1,17 @@
 import React from "react";
-import { StyledCard, ArrowDown, StyledH1 } from "../style/StyledCard";
+import {
+  StyledCard,
+  ArrowDown,
+  StyledH2,
+  StyledH3,
+  StyledBody,
+} from "../style/StyledCard";
 import {
   StyledProjectsContainer,
   StyledFlex,
   StyledProject,
   StyledPic,
   StyledDescription,
-  StyledTitle,
-  StyledBody,
   StyledIconContainer,
   StyledCodepen,
   StyledDeploy,
@@ -21,12 +25,12 @@ export default function Projects(props) {
     <div id="projects">
       <StyledCard height="180vh" color="#F58549" zIndex="3" projects>
         <StyledProjectsContainer>
-          <StyledH1>projects</StyledH1>
+          <StyledH2>projects</StyledH2>
           <StyledFlex>
             <StyledProject>
               <StyledPic project1 />
               <StyledDescription>
-                <StyledTitle>Toggle button</StyledTitle>
+                <StyledH3>Toggle button</StyledH3>
                 <StyledBody>
                   Custom toggle button made with psuedo-elements and styled in
                   CSS.
@@ -45,7 +49,7 @@ export default function Projects(props) {
             <StyledProject>
               <StyledPic project2 />
               <StyledDescription>
-                <StyledTitle>Pomodoro Timer</StyledTitle>
+                <StyledH3>Pomodoro Timer</StyledH3>
                 <StyledBody>
                   A tool counting down a time amount given by the user in
                   multiple sessions. Done in Vanilla JavaScript.
@@ -69,7 +73,7 @@ export default function Projects(props) {
             <StyledProject>
               <StyledPic project3 />
               <StyledDescription>
-                <StyledTitle>To-do App</StyledTitle>
+                <StyledH3>To-do App</StyledH3>
                 <StyledBody>
                   An app to keep track on task. An option to edit and set task
                   as done. Made with ReactJS and class components.
@@ -94,7 +98,7 @@ export default function Projects(props) {
             <StyledProject>
               <StyledPic project4 />
               <StyledDescription>
-                <StyledTitle>Palette Generator</StyledTitle>
+                <StyledH3>Palette Generator</StyledH3>
                 <StyledBody>
                   Color palette generator made with ReactJS and Hooks. Many
                   different features: drag&drop or automatically generated
@@ -121,7 +125,7 @@ export default function Projects(props) {
             <StyledProject>
               <StyledPic project5 />
               <StyledDescription>
-                <StyledTitle>Music recommendation app</StyledTitle>
+                <StyledH3>Music recommendation app</StyledH3>
                 <StyledBody>
                   By consuming Spotify API this app will recommends songs based
                   on given factors like danceability or mood. Done with ReactJS,
@@ -150,7 +154,7 @@ export default function Projects(props) {
             <StyledProject>
               <StyledPic project6 />
               <StyledDescription>
-                <StyledTitle>Portfolio Page</StyledTitle>
+                <StyledH3>Portfolio Page</StyledH3>
                 <StyledBody>
                   This website built from scratch with ReactJS.
                 </StyledBody>

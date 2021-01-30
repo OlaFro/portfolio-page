@@ -1,29 +1,38 @@
 import React from "react";
-import { StyledH1 } from "../style/StyledCard";
+import { StyledH2, StyledH3 } from "../style/StyledCard";
 import {
   StyledFooter,
-  StyledContactContainer,
+  StyledFooterContainer,
   StyledContact,
 } from "../style/StyledFooter";
 import { StyledGithub } from "../style/StyledProjects";
-import { StyledLinkedIn } from "../style/StyledFooter";
+import { StyledLinkedIn, StyledPin } from "../style/StyledFooter";
 export default function Footer() {
   return (
     <div id="footer">
       <StyledFooter height="40vh" color="#772F1A" zIndex="2">
-        {/* <StyledH1>Contact</StyledH1> */}
-        <StyledContactContainer>
-          <StyledContact>Ola Frost</StyledContact>
-          <StyledContact>hello@olafrost.com</StyledContact>
-          <StyledContact>+49 (0) 17627962504</StyledContact>
-          <StyledContact>04177 Leipzig, Germany</StyledContact>
-          <a href="https://github.com/OlaFro/">
-            <StyledGithub footer />
-          </a>
-          <a href="https://www.linkedin.com/in/ola-frost/">
-            <StyledLinkedIn />
-          </a>
-        </StyledContactContainer>
+        <StyledFooterContainer>
+          <StyledH2>Contact</StyledH2>
+          <StyledContact>
+            <div>
+              <StyledH3 footer>Ola Frost</StyledH3>
+
+              <div>hello@olafrost.com</div>
+              <div>+49 (0) 17627962504</div>
+            </div>
+            <div>
+              <StyledPin /> <span>Leipzig, Germany</span>
+            </div>
+            <div>
+              <a href="https://github.com/OlaFro/">
+                <StyledGithub footer />
+              </a>
+              <a href="https://www.linkedin.com/in/ola-frost/">
+                <StyledLinkedIn />
+              </a>
+            </div>
+          </StyledContact>
+        </StyledFooterContainer>
       </StyledFooter>
     </div>
   );

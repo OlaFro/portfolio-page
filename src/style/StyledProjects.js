@@ -76,18 +76,6 @@ export const StyledDescription = styled.div`
   grid-template-rows: 2rem auto 5rem 3rem;
 `;
 
-export const StyledTitle = styled.h3`
-  color: ${(props) => props.theme.theme4.footer};
-  font-family: "Raleway", sans-serif;
-  font-weight: 900;
-  margin: 0 0 10px 0;
-  font-size: 1.2rem;
-`;
-
-export const StyledBody = styled.div`
-  color: ${(props) => props.theme.theme4.footer};
-`;
-
 export const StyledIconContainer = styled.div`
   padding: 0.5rem 0;
   margin: 10px 0;

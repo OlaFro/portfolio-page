@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Linkedin } from "styled-icons/feather";
+import { Linkedin, MapPin } from "styled-icons/feather";
 
 export const StyledFooter = styled.div`
   background-color: ${(props) => props.theme.theme4.footer};
@@ -10,20 +10,33 @@ export const StyledFooter = styled.div`
   margin-top: 0;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
 `;
 
-export const StyledContactContainer = styled.div`
-  height: 40%;
+export const StyledFooterContainer = styled.div`
+  height: 60%;
   width: 80%;
-  border: 1px solid white;
   margin: auto;
 `;
 
-export const StyledContact = styled.div``;
+export const StyledContact = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+  border: 1px solid green;
+`;
 
 export const StyledLinkedIn = styled(Linkedin)`
+  color: ${(props) => props.theme.theme4.about};
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  :hover {
+    color: ${(props) => props.theme.theme4.projects};
+  }
+`;
+export const StyledPin = styled(MapPin)`
   color: ${(props) => props.theme.theme4.about};
   height: 2rem;
   width: 2rem;

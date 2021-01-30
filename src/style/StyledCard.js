@@ -86,19 +86,38 @@ export const StyledH1 = styled.h1`
 `;
 
 export const StyledH2 = styled.h2`
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin: 10px;
   padding: 1rem;
   text-align: center;
   line-height: 1.15;
   font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-weight: 900;
 
   ${(props) => {
     if (props.title === "hero") {
       return `margin-top: -2rem`;
     }
   }}
+  text-transform: uppercase;
+`;
+
+export const StyledH3 = styled.h3`
+  color: ${(props) => {
+    if (props.footer) {
+      return props.theme.theme4.about;
+    } else {
+      return props.theme.theme4.footer;
+    }
+  }};
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+`;
+
+export const StyledBody = styled.div`
+  color: ${(props) => props.theme.theme4.footer};
 `;
 
 export const StyledText = styled.p`

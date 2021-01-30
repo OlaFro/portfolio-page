@@ -34,7 +34,7 @@ export default function Skills() {
     <div id="skills">
       <StyledCard height="60vh" color="#F2A65A" zIndex="4" skills>
         <StyledSkillsContainer>
-          <StyledH1>skills</StyledH1>
+          <StyledH2>skills</StyledH2>
           <IconStyleWrapper>
             <StyledSkill>
               <Html5 title="html5" />
