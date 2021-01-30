@@ -58,7 +58,7 @@ export const StyledPic = styled.div`
     }
   }};
 
-  border: 10px solid white;
+  border: 10px solid ${(props) => props.theme.theme4.about};
   filter: saturate(0);
   transition: filter 250ms ease-in-out;
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
@@ -73,14 +73,15 @@ export const StyledDescription = styled.div`
   background-color: ${(props) => props.theme.theme4.about};
   padding: 20px;
   display: grid;
-  grid-template-rows: 3rem auto auto 3rem;
+  grid-template-rows: 2rem auto 5rem 3rem;
 `;
 
 export const StyledTitle = styled.h3`
   color: ${(props) => props.theme.theme4.footer};
   font-family: "Raleway", sans-serif;
   font-weight: 900;
-  margin: 10px 0;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
 `;
 
 export const StyledBody = styled.div`
@@ -125,7 +126,7 @@ export const StyledTagContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: start;
+  align-items: flex-end;
   height: 5rem;
 `;
 
