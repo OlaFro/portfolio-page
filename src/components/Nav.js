@@ -1,25 +1,29 @@
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
-import { StyledNav, StyledNavContainer } from "../style/StyledNav";
+import {
+  StyledNav,
+  StyledNavContainer,
+  StyledButton,
+} from "../style/StyledNav";
 
 export default function Nav() {
   return (
     <StyledNavContainer>
       <StyledNav>
         <NavHashLink smooth to="#home">
-          Home
+          <StyledButton Home> Home</StyledButton>
         </NavHashLink>
         <NavHashLink smooth to="#about">
-          About
+          <StyledButton About> About</StyledButton>
         </NavHashLink>
         <NavHashLink smooth to="#skills">
-          Skills
+          <StyledButton Skills> Skills</StyledButton>
         </NavHashLink>
         <NavHashLink smooth to="#projects">
-          Projects
+          <StyledButton Projects> Projects</StyledButton>
         </NavHashLink>
         <NavHashLink smooth to="#footer">
-          Contact
+          <StyledButton Contact> Contact</StyledButton>
         </NavHashLink>
       </StyledNav>
     </StyledNavContainer>
