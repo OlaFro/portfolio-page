@@ -2,9 +2,10 @@ import styled from "styled-components";
 import me from "../img/me2.jpg";
 
 export const StyledAboutContainer = styled.div`
-  width: 60%;
-  height: 100%;
-  border: 1px solid red;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width: 80%;
+  height: 80%;
 `;
 
 export const StyledPortrait = styled.div`

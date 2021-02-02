@@ -1,21 +1,16 @@
 import React from "react";
 import { StyledCard, ArrowDown, StyledH1, StyledH2 } from "../style/StyledCard";
 import { StyledHeroContainer } from "../style/StyledHero";
+import olafrost from "../img/olafrost.svg";
 
 export default function Hero(props) {
   return (
     <div id="home">
       <StyledCard height="75vh" zIndex="6" hero>
-        {/* <StyledH1>hero</StyledH1>
-        <ArrowDown /> */}
         <StyledHeroContainer>
-          <StyledH1>Halko</StyledH1>
-          {/* <StyledH1> &lt; Hej /&gt;</StyledH1> */}
-          <StyledH2 title="hero">
-            My name is Ola and I'm certified <br></br>Full-Stack Web Developer.
-          </StyledH2>
-          <ArrowDown />
+          <img src={olafrost} alt="logo" width="700" />
         </StyledHeroContainer>
+        <ArrowDown />
       </StyledCard>
     </div>
   );
