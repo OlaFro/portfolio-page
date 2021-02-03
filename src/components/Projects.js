@@ -8,7 +8,7 @@ import {
 } from "../style/StyledCard";
 import {
   StyledProjectsContainer,
-  StyledFlex,
+  StyledGrid,
   StyledProject,
   StyledPic,
   StyledDescription,
@@ -26,7 +26,7 @@ export default function Projects(props) {
       <StyledCard height="115rem" color="#F58549" zIndex="3" projects>
         <StyledProjectsContainer>
           <StyledH2>projects</StyledH2>
-          <StyledFlex>
+          <StyledGrid>
             <StyledProject>
               <StyledPic project1 />
               <StyledDescription>
@@ -171,7 +171,7 @@ export default function Projects(props) {
                 </StyledIconContainer>
               </StyledDescription>
             </StyledProject>
-          </StyledFlex>
+          </StyledGrid>
           <ArrowDown />
         </StyledProjectsContainer>
       </StyledCard>

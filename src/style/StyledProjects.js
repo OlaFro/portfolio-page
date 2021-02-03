@@ -11,17 +11,29 @@ export const StyledProjectsContainer = styled.div`
   padding: 7rem 0rem;
   margin-bottom: 7rem;
   display: grid;
-  grid-template-rows: 15% auto;
+  grid-template-rows: auto auto;
   width: 80%;
   height: 80%;
 `;
 
-export const StyledFlex = styled.div`
+export const StyledGrid = styled.div`
+  margin-top: 5rem;
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(6, auto);
   grid-row-gap: 3rem;
-  justify-content: space-evenly;
+  justify-content: center;
+
+  @media (min-width: 950px) and (max-width: 1440px) {
+    grid-template-columns: repeat(2, auto);
+    grid-row-gap: 3rem;
+    justify-content: space-evenly;
+  }
+
+  @media (min-width: 1440px) {
+    grid-template-columns: repeat(3, auto);
+    grid-row-gap: 3rem;
+    justify-content: space-evenly;
+  }
 `;
 
 export const StyledProject = styled.div`
