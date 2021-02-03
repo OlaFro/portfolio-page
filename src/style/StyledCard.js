@@ -17,7 +17,8 @@ export const StyledCard = styled.div`
   }};
 
   width: 100%;
-  min-height: ${(props) => props.height};
+  min-height: auto;
+  /* min-height: ${(props) => props.height}; */
   z-index: ${(props) => props.zIndex};
   color: white;
   position: relative;

@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledAboutContainer = styled.div`
   padding-top: 7rem;
-  width: 60%;
   height: 80%;
+  width: 60%;
 
   a {
     color: inherit;
@@ -13,18 +13,39 @@ export const StyledAboutContainer = styled.div`
       background-color: transparent;
     }
   }
+
+  @media (max-width: 1440px) {
+    width: 80%;
+  }
 `;
 
 export const StyledBrackets = styled.p`
-  font-size: 40rem;
   color: ${(props) => props.theme.theme4.footer};
   margin: 0;
   font-weight: 100;
-  padding-bottom: 65px;
+
+  @media (min-width: 1440px) {
+    font-size: 40rem;
+    padding-bottom: 65px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 20rem;
+  }
+  @media (max-width: 1024px) {
+    font-size: 20vw;
+  } ;
 `;
 
 export const StyledAboutFlex = styled.div`
   display: flex;
   align-items: center;
-  gap: 5rem;
+  padding-bottom: 7rem;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    gap: 5rem;
+  }
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
