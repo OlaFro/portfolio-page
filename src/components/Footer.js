@@ -17,7 +17,7 @@ export default function Footer() {
             <div>
               <StyledH3 footer>Ola Frost</StyledH3>
               <a href="mailto:hello@olafrost.com">
-                <StyledBody footer>hello@olafrost.com</StyledBody>
+                <StyledBody footer>hello [at] olafrost.com</StyledBody>
               </a>
               <StyledBody footer>+49 (0) 17627962504</StyledBody>
             </div>

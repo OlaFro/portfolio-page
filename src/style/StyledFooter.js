@@ -21,9 +21,29 @@ export const StyledFooterContainer = styled.div`
 
 export const StyledContact = styled.div`
   display: flex;
-  justify-content: space-between;
-  width: 40%;
-  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    padding: 1rem 0;
+    border: 1px solid white;
+  }
+
+  @media (min-width: 968px) and (max-width: 1440px) {
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    width: 40%;
+  }
+
   a {
     text-decoration: none;
   }
