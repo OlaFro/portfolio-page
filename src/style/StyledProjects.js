@@ -9,7 +9,7 @@ import { Codepen, Github, ExternalLink } from "styled-icons/feather";
 
 export const StyledProjectsContainer = styled.div`
   padding: 7rem 0rem;
-  margin-bottom: 7rem;
+
   display: grid;
   grid-template-rows: auto auto;
   width: 80%;
