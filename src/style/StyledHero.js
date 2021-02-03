@@ -11,16 +11,20 @@ const blink = keyframes`
 `;
 
 export const StyledHeroContainer = styled.div`
-  margin: 10rem auto;
-  width: 100%;
+  margin: 10rem;
+  width: 70%;
+
   display: grid;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 425px) {
+    margin: 10rem auto;
+    width: 100%;
+  }
 `;
 
 export const StyledCursor = styled.span`
-  /* font-family: "Montserrat", sans-serif;
-  font-weight: 700; */
   margin: 3rem 0;
   height: 1rem;
   width: 3px;

@@ -11,7 +11,6 @@ export default function Hero(props) {
           <StyledH1>
             ola frost<br></br>full stack web developer
           </StyledH1>
-
           <StyledH1>{String.fromCharCode(125)}</StyledH1>
           <StyledCursor />
         </StyledHeroContainer>
