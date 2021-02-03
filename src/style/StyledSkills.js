@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { StyledIconBase } from "@styled-icons/styled-icon";
 
 export const StyledSkillsContainer = styled.div`
-  padding-top: 7rem;
+  padding: 7rem 0;
   display: flex;
   flex-direction: column;
   text-align: center;

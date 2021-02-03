@@ -8,7 +8,8 @@ import project6 from "../img/project6.png";
 import { Codepen, Github, ExternalLink } from "styled-icons/feather";
 
 export const StyledProjectsContainer = styled.div`
-  padding-top: 7rem;
+  padding: 7rem 0rem;
+  margin-bottom: 7rem;
   display: grid;
   grid-template-rows: 15% auto;
   width: 80%;
