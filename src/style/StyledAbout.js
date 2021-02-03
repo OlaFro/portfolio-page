@@ -6,8 +6,10 @@ export const StyledAboutContainer = styled.div`
 
   a {
     color: inherit;
+    text-decoration: none;
+    background-color: ${(props) => props.theme.theme4.projects};
     :hover {
-      text-decoration: none;
+      background-color: transparent;
     }
   }
 `;

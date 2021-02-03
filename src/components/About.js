@@ -56,7 +56,11 @@ export default function About() {
             potential.
             <br></br>
             <br></br>I’m looking for a job where I will apply and develop my
-            skills and contribute to creating an extraordinary user experience.
+            skills and contribute to creating an extraordinary user experience.{" "}
+            <a href="www.linkedin.com/in/ola-frost">
+              {" "}
+              Don't hesitate to visit my LinkedIn profile.{" "}
+            </a>
             I'm available from <strong>April 2021</strong>.
           </StyledText>
         </StyledAboutContainer>
