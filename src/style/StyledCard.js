@@ -94,7 +94,7 @@ export const StyledH2 = styled.h2`
   text-align: center;
   line-height: 1.15;
   font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 3px;
 
@@ -164,52 +164,12 @@ export const StyledButton = styled.div`
   letter-spacing: 5px;
   font-size: 1rem;
   border: 1px solid white;
-
-  ::after {
-    content: "";
-    background-color: ${(props) => props.theme.theme4.projects};
-    position: absolute;
-    left: 0;
-    width: 5rem;
-    height: 3rem;
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: transform 250ms ease-in;
-    z-index: 1;
-  }
-
-  ::before {
-    ${(props) => {
-      if (props.Home) {
-        return `content: "Home"`;
-      } else if (props.About) {
-        return `content: "About"`;
-      } else if (props.Skills) {
-        return `content: "Skills"`;
-      } else if (props.Projects) {
-        return `content: "Projects"`;
-      } else if (props.Contact) {
-        return `content: "Contact"`;
-      } else {
-        return `content:"Get in touch with me!"`;
-      }
-    }};
-    position: absolute;
-    opacity: 0;
-  }
+  transition: background-color 200ms ease-in-out;
 
   :hover {
-    color: transparent;
-
-    ::after {
-      transform: scaleY(1);
-      transform-origin: bottom;
-    }
-    ::before {
-      color: black;
-      opacity: 1;
-      z-index: 2;
-    }
+    background-color: ${(props) => props.theme.theme4.projects};
+    color: ${(props) => props.theme.theme4.hero};
+    border: 1px solid transparent;
 
     :active {
       outline: none;
