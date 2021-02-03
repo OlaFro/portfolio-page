@@ -6,7 +6,7 @@ import olafrost from "../img/olafrost.svg";
 export default function Hero(props) {
   return (
     <div id="home">
-      <StyledCard height="75vh" zIndex="6" hero>
+      <StyledCard zIndex="6" hero>
         <StyledHeroContainer>
           <img src={olafrost} alt="logo" width="700" />
         </StyledHeroContainer>

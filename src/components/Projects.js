@@ -23,7 +23,7 @@ import {
 export default function Projects(props) {
   return (
     <div id="projects">
-      <StyledCard height="115rem" color="#F58549" zIndex="3" projects>
+      <StyledCard color="#F58549" zIndex="3" projects>
         <StyledProjectsContainer>
           <StyledH2>projects</StyledH2>
           <StyledGrid>

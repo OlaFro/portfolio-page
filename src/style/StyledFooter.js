@@ -4,7 +4,7 @@ import { Linkedin, MapPin } from "styled-icons/feather";
 export const StyledFooter = styled.div`
   background: linear-gradient(${(props) => props.theme.theme4.footer}, black);
   width: 100%;
-  height: ${(props) => props.height};
+  height: auto;
   z-index: ${(props) => props.zIndex};
   color: white;
   margin-top: 0;
@@ -16,7 +16,7 @@ export const StyledFooter = styled.div`
 export const StyledFooterContainer = styled.div`
   height: 60%;
   width: 80%;
-  margin: auto;
+  margin: 10rem auto;
 `;
 
 export const StyledContact = styled.div`

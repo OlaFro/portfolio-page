@@ -14,7 +14,7 @@ import {
 export default function About() {
   return (
     <div id="about">
-      <StyledCard height="70rem" color="#EEC170" zIndex="5" about>
+      <StyledCard color="#EEC170" zIndex="5" about>
         <StyledAboutContainer>
           <StyledH2 about>About</StyledH2>
           <StyledAboutFlex>

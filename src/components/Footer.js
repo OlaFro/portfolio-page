@@ -10,7 +10,7 @@ import { StyledLinkedIn, StyledPin } from "../style/StyledFooter";
 export default function Footer() {
   return (
     <div id="footer">
-      <StyledFooter height="50vh" color="#772F1A" zIndex="2">
+      <StyledFooter color="#772F1A" zIndex="2">
         <StyledFooterContainer>
           <StyledH2>Contact</StyledH2>
           <StyledContact>
