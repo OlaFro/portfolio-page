@@ -88,13 +88,16 @@ export const StyledH1 = styled.h1`
 `;
 
 export const StyledH2 = styled.h2`
-  font-size: 2.5rem;
+  font-size: 32px;
   margin: 10px 0;
-  padding: 1rem;
+  /* padding: 1rem; */
   text-align: center;
   line-height: 1.15;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
   text-transform: uppercase;
   color: ${(props) => {
     if (props.about) {
@@ -148,24 +151,26 @@ export const StyledButton = styled.div`
   text-decoration: none;
   padding: 5px 15px;
   margin: 0;
-  font-size: 1.2rem;
   height: 2rem;
-  width: 3.5rem;
+  width: auto;
   cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  z-index: 0;
-  /* border: 2px solid ${(props) => props.theme.theme4.projects}; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  border: 1px solid white;
 
   ::after {
     content: "";
     background-color: ${(props) => props.theme.theme4.projects};
     position: absolute;
-    left: -25%;
-    width: 7rem;
+    left: 0;
+    width: 5rem;
     height: 3rem;
     transform: scaleY(0);
     transform-origin: bottom;
