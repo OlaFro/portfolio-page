@@ -32,7 +32,7 @@ import {
 export default function Skills() {
   return (
     <div id="skills">
-      <StyledCard height="60vh" color="#F2A65A" zIndex="4" skills>
+      <StyledCard height="40rem" color="#F2A65A" zIndex="4" skills>
         <StyledSkillsContainer>
           <StyledH2>skills</StyledH2>
           <IconStyleWrapper>
