@@ -27,7 +27,9 @@ export const StyledContact = styled.div`
 
   > div {
     padding: 1rem 0;
-    border: 1px solid white;
+    > h3 {
+      text-align: center;
+    }
   }
 
   @media (min-width: 968px) and (max-width: 1440px) {

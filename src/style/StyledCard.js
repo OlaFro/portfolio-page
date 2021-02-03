@@ -80,15 +80,11 @@ export const ArrowDown = styled(KeyboardArrowDown)`
 // Typography styles
 
 export const StyledH1 = styled.h1`
-  font-size: 5rem;
-  margin: 20px;
-  padding: 10px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 900;
-  text-align: center;
-  text-shadow: 0 6px 5px rgba(0, 0, 0, 0.3);
-
-  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1rem;
 `;
 
 export const StyledH2 = styled.h2`
@@ -148,7 +144,7 @@ export const StyledBody = styled.div`
 // Button style
 
 export const StyledButton = styled.div`
-  color: ${(props) => props.theme.theme4.projects};
+  color: ${(props) => props.theme.theme4.about};
   text-decoration: none;
   padding: 5px 15px;
   margin: 0;

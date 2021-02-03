@@ -1,14 +1,18 @@
 import React from "react";
-import { StyledCard, ArrowDown, StyledH1, StyledH2 } from "../style/StyledCard";
+import { StyledCard, ArrowDown, StyledH1 } from "../style/StyledCard";
 import { StyledHeroContainer } from "../style/StyledHero";
-import olafrost from "../img/olafrost.svg";
 
 export default function Hero(props) {
   return (
     <div id="home">
       <StyledCard zIndex="6" hero>
         <StyledHeroContainer>
-          <img src={olafrost} alt="logo" width="700" />
+          <StyledH1>{String.fromCharCode(123)}</StyledH1>
+          <StyledH1>
+            ola frost<br></br>full stack web developer
+          </StyledH1>
+
+          <StyledH1>{String.fromCharCode(125)}</StyledH1>
         </StyledHeroContainer>
         <ArrowDown />
       </StyledCard>
