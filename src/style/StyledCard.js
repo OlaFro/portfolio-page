@@ -57,7 +57,7 @@ export const StyledCard = styled.div`
 
 export const ArrowDown = styled(KeyboardArrowDown)`
   color: ${(props) => {
-    if (props.about) {
+    if (props.about || props.projects) {
       return props.theme.theme4.footer;
     } else {
       return props.theme.theme4.about;
@@ -72,7 +72,6 @@ export const ArrowDown = styled(KeyboardArrowDown)`
   transition: bottom 250ms ease-in-out;
 
   :hover {
-    color: yellow;
     bottom: -2rem;
   }
 `;
@@ -90,15 +89,12 @@ export const StyledH1 = styled.h1`
 export const StyledH2 = styled.h2`
   font-size: 32px;
   margin: 10px 0;
-  /* padding: 1rem; */
   text-align: center;
   line-height: 1.15;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 3px;
-
-  text-transform: uppercase;
   color: ${(props) => {
     if (props.about) {
       return props.theme.theme4.footer;

@@ -172,7 +172,7 @@ export default function Projects(props) {
               </StyledDescription>
             </StyledProject>
           </StyledGrid>
-          <ArrowDown />
+          <ArrowDown projects />
         </StyledProjectsContainer>
       </StyledCard>
     </div>
