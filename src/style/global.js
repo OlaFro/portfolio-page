@@ -8,6 +8,7 @@ body{
   padding: 0;
   width: 99.2vw;
   font-family: 'Lato', sans-serif;
+
   color: white;
 
 }

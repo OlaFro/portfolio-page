@@ -103,7 +103,7 @@ export const StyledH2 = styled.h2`
     if (props.about) {
       return props.theme.theme4.footer;
     } else {
-      return props.theme.theme4.about;
+      return `white`;
     }
   }};
 `;

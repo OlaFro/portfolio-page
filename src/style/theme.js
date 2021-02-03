@@ -25,7 +25,7 @@ export const theme3 = {
 export const theme4 = {
   skills: "#707070",
   hero: "#202020",
-  about: "#FFFFFF",
+  about: "#eeF0F4",
   projects: "#FFDD6C",
   footer: "#3F3F3F",
 };
