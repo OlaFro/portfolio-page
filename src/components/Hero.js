@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledCard, ArrowDown, StyledH1 } from "../style/StyledCard";
-import { StyledHeroContainer } from "../style/StyledHero";
+import { StyledHeroContainer, StyledCursor } from "../style/StyledHero";
 
 export default function Hero(props) {
   return (
@@ -13,6 +13,7 @@ export default function Hero(props) {
           </StyledH1>
 
           <StyledH1>{String.fromCharCode(125)}</StyledH1>
+          <StyledCursor />
         </StyledHeroContainer>
         <ArrowDown />
       </StyledCard>
