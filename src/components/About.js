@@ -22,7 +22,7 @@ export default function About() {
               {String.fromCharCode(123)}
               {String.fromCharCode(125)}
             </StyledBrackets>
-            <StyledText>
+            <StyledText about>
               <strong>Hi, my name is Ola.</strong> At the beginning of 2020,
               I've decided to switch the career to programming and started one
               year intensive <strong>Full-Stack Web Developer</strong> training
@@ -32,7 +32,7 @@ export default function About() {
               </a>
               . Due to the COVID-19 pandemic, the course was moved from the
               classroom entirely to remote, which was a completely new
-              experience, but has taught me how to work in this environment.
+              experience and has taught me how to work in this environment.
               <br></br>
               <br></br>
               Our full-time course has started with teaching us basics about the{" "}
@@ -55,22 +55,22 @@ export default function About() {
               during the COVID-19 lock-down limitations.
               <br></br>
               <br></br>
-              My background is studies in <strong>photography</strong> and{" "}
+              My background is studies in{" "}
+              <strong>photography - new media</strong> and{" "}
               <strong>journalism</strong>. I have several years of experience in
-              the new-media and e-commerce field. On top of the programming
-              competencies, I'm adding <strong>graphic skills</strong> and an
-              eye for the smallest visual detail. My natural curiosity makes me
-              getting to the bottom of things and left no question unanswered.
-              I'm passionate about technology and programming and its creative
-              potential.
+              the e-commerce field. On top of the programming competencies, I'm
+              adding <strong>graphic skills</strong> and an eye for the finest
+              visual detail. My natural curiosity makes me getting to the bottom
+              of things and left no question unanswered. I'm passionate about
+              technology and programming and it in the creative field.
               <br></br>
               <br></br>I’m looking for a job where I will apply and develop my
               skills and contribute to creating an extraordinary user
-              experience.{" "}
+              experience. <br></br>
               <a href="www.linkedin.com/in/ola-frost">
                 {" "}
-                Don't hesitate to visit my LinkedIn profile.{" "}
-              </a>
+                Don't hesitate to visit my LinkedIn profile.
+              </a>{" "}
               I'm available from <strong>April 2021</strong>.
             </StyledText>
           </StyledAboutFlex>

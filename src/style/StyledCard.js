@@ -91,9 +91,9 @@ export const StyledH2 = styled.h2`
   margin: 10px 0;
   text-align: center;
   line-height: 1.15;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  text-transform: lowercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
   letter-spacing: 3px;
   color: ${(props) => {
     if (props.about) {
@@ -123,6 +123,7 @@ export const StyledText = styled.p`
   color: ${(props) =>
     props.skills ? props.theme.theme4.about : props.theme.theme4.skills};
   padding: 1rem;
+  line-height: ${(props) => (props.about ? 1.5 : null)};
 `;
 
 export const StyledBody = styled.div`

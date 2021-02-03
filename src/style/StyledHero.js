@@ -30,6 +30,6 @@ export const StyledCursor = styled.span`
   width: 3px;
   background-color: ${(props) => props.theme.theme4.about};
   animation-name: ${blink};
-  animation-duration: 800ms;
+  animation-duration: 1000ms;
   animation-iteration-count: infinite;
 `;

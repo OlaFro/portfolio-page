@@ -123,7 +123,14 @@ export const StyledGithub = styled(Github)`
   }};
   height: 2rem;
   width: 2rem;
-  margin-right: 10px;
+  margin-right: ${(props) => {
+    if (props.footer) {
+      return `15px`;
+    } else {
+      return `10px;`;
+    }
+  }};
+
   cursor: pointer;
   :hover {
     color: ${(props) => props.theme.theme4.projects};
