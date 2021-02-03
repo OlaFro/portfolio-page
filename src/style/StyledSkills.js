@@ -3,6 +3,7 @@ import { StyledIconBase } from "@styled-icons/styled-icon";
 
 export const StyledSkillsContainer = styled.div`
   padding: 7rem 0;
+  margin: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -11,6 +12,7 @@ export const StyledSkillsContainer = styled.div`
 `;
 
 export const IconStyleWrapper = styled.div`
+  /* icons style */
   ${StyledIconBase} {
     height: 4rem;
     width: 4rem;
@@ -26,19 +28,22 @@ export const IconStyleWrapper = styled.div`
       }
     }
   }
+  /* container style */
 
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  @media (min-width: 768px) and (max-width: 1440px) {
+    grid-template-columns: repeat(6, auto);
+  }
+
+  @media (min-width: 1440px) {
+    grid-template-columns: repeat(12, auto);
+  }
 `;
 
 export const StyledSkill = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
-
-export const StyledAddition = styled.div`
-  display: flex;
-  justify-content: center;
 `;

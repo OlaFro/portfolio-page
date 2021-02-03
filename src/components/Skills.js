@@ -10,7 +10,6 @@ import {
   StyledSkillsContainer,
   IconStyleWrapper,
   StyledSkill,
-  StyledAddition,
 } from "../style/StyledSkills";
 import {
   Html5,
