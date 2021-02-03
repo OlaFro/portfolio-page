@@ -3,34 +3,30 @@ import {
   StyledCard,
   ArrowDown,
   StyledH2,
-  StyledH3,
-  StyledBody,
   StyledText,
-  StyledButton,
 } from "../style/StyledCard";
 import { StyledAboutContainer } from "../style/StyledAbout";
-import { StyledSkillsContainer } from "../style/StyledSkills";
 
 export default function About() {
   return (
     <div id="about">
-      <StyledCard height="120vh" color="#EEC170" zIndex="5" about>
+      <StyledCard height="60rem" color="#EEC170" zIndex="5" about>
         <StyledAboutContainer>
-          <StyledH2>About</StyledH2>
+          <StyledH2 about>About</StyledH2>
 
           <StyledText>
-            At the beginning of 2020, I've decided to switch the career to
-            programming and started one year intensive{" "}
-            <strong>Full-Stack Web Developer</strong> training at{" "}
+            <strong>Hi, my name is Ola.</strong> At the beginning of 2020, I've
+            decided to switch the career to programming and started one year
+            intensive <strong>Full-Stack Web Developer</strong> training at{" "}
             <a href="https://digitalcareerinstitute.org/">
               Digital Career Institute
             </a>
             . Due to the COVID-19 pandemic, the course was moved from the
-            classroom entirely to remote, which was a challenge but has taught
-            me how to work in this environment.
+            classroom entirely to remote, which was a completely new experience,
+            but has taught me how to work in this environment.
             <br></br>
             <br></br>
-            Our full-time course has started with teaching us basics about the
+            Our full-time course has started with teaching us basics about the{" "}
             <strong>Command-Line</strong> and <strong>Git</strong>. Then we've
             spent three months in the Graphical User Interface module practicing{" "}
             <strong>HTML5</strong> and <strong>CSS3</strong>. After that, we
@@ -45,7 +41,7 @@ export default function About() {
             Adding <strong>MySQL</strong> and <strong>MongoDB</strong> with{" "}
             <strong>Mongoose</strong> was the last step to completing our stack
             of skills. Eventually, we were ready to work in groups on our Final
-            Project. During seven weeks we will develop a WebApp that helps
+            Project: during seven weeks we will develop a WebApp that helps
             supporting local gastronomy during the COVID-19 lock-down
             limitations.
             <br></br>
@@ -53,14 +49,15 @@ export default function About() {
             My background is studies in <strong>photography</strong> and{" "}
             <strong>journalism</strong>. I have several years of experience in
             the new-media and e-commerce field. On top of the programming
-            competencies, I'm adding <strong>graphic skills</strong>
-            and an eye for the smallest visual detail. My natural curiosity
-            makes me getting to the bottom of things and left no question
-            unanswered. I'm passionate about technology and programming and its
-            creative potential.
+            competencies, I'm adding <strong>graphic skills</strong> and an eye
+            for the smallest visual detail. My natural curiosity makes me
+            getting to the bottom of things and left no question unanswered. I'm
+            passionate about technology and programming and its creative
+            potential.
             <br></br>
             <br></br>I’m looking for a job where I will apply and develop my
             skills and contribute to creating an extraordinary user experience.
+            I'm available from <strong>April 2021</strong>.
           </StyledText>
         </StyledAboutContainer>
         <ArrowDown about />

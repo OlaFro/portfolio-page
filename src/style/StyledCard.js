@@ -23,7 +23,7 @@ export const StyledCard = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  /* padding-top: 5rem; */
+  align-items: center;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 
@@ -98,15 +98,14 @@ export const StyledH2 = styled.h2`
   line-height: 1.15;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
-  /* text-decoration: wavy underline ${(props) =>
-    props.theme.theme4.projects}; */
-
-  ${(props) => {
-    if (props.title === "hero") {
-      return `margin-top: -2rem`;
-    }
-  }}
   text-transform: uppercase;
+  color: ${(props) => {
+    if (props.about) {
+      return props.theme.theme4.footer;
+    } else {
+      return props.theme.theme4.about;
+    }
+  }};
 `;
 
 export const StyledH3 = styled.h3`
@@ -124,8 +123,9 @@ export const StyledH3 = styled.h3`
 `;
 
 export const StyledText = styled.p`
-  font-size: 2rem;
-  color: ${(props) => (props.skills ? "white" : "grey")};
+  font-size: 1.5rem;
+  color: ${(props) =>
+    props.skills ? props.theme.theme4.about : props.theme.theme4.skills};
   padding: 1rem;
 `;
 
