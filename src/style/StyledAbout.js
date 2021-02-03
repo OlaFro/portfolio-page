@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledAboutContainer = styled.div`
+  padding-top: 7rem;
   width: 60%;
   height: 80%;
 

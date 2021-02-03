@@ -85,12 +85,10 @@ export default function Skills() {
               <p>Adobe CC</p>
             </StyledSkill>
           </IconStyleWrapper>
-          <StyledAddition>
-            <StyledText skills>
-              Fluent in speaking and writing in <strong>English</strong>,{" "}
-              <strong>German</strong> & <strong>Polish</strong>.
-            </StyledText>
-          </StyledAddition>
+          <StyledText skills>
+            Fluent in speaking and writing in <strong>English</strong>,{" "}
+            <strong>German</strong> & <strong>Polish</strong>.
+          </StyledText>
         </StyledSkillsContainer>
         <ArrowDown />
       </StyledCard>

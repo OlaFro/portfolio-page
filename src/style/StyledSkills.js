@@ -2,8 +2,10 @@ import styled from "styled-components";
 import { StyledIconBase } from "@styled-icons/styled-icon";
 
 export const StyledSkillsContainer = styled.div`
-  display: grid;
-  grid-template-rows: auto auto auto;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   width: 80%;
   height: 80%;
 `;
@@ -12,7 +14,7 @@ export const IconStyleWrapper = styled.div`
   ${StyledIconBase} {
     height: 4rem;
     width: 4rem;
-    padding: 0 1rem;
+    padding: 5rem 1rem 0rem 1rem;
     cursor: pointer;
     + p {
       opacity: 0;

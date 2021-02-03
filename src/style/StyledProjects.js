@@ -8,10 +8,11 @@ import project6 from "../img/project6.png";
 import { Codepen, Github, ExternalLink } from "styled-icons/feather";
 
 export const StyledProjectsContainer = styled.div`
+  padding-top: 7rem;
   display: grid;
   grid-template-rows: 15% auto;
   width: 80%;
-  height: 100%;
+  height: 80%;
 `;
 
 export const StyledFlex = styled.div`
