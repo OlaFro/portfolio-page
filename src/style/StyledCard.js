@@ -123,7 +123,7 @@ export const StyledH3 = styled.h3`
 `;
 
 export const StyledText = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: ${(props) =>
     props.skills ? props.theme.theme4.about : props.theme.theme4.skills};
   padding: 1rem;
