@@ -12,7 +12,7 @@ export const StyledNav = styled.nav`
   box-shadow: 0px 0px 5px black;
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 `;
 
 export const StyledNavContainer = styled.div`
@@ -22,7 +22,6 @@ export const StyledNavContainer = styled.div`
   display: grid;
   grid-template-rows: 4rem auto;
   align-items: center;
-  /* margin-bottom: 1rem; */
 
   @media (min-width: 1550px) {
     grid-template-columns: 4rem auto;
