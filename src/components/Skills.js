@@ -2,7 +2,6 @@ import React from "react";
 import {
   StyledCard,
   ArrowDown,
-  StyledH1,
   StyledH2,
   StyledText,
 } from "../style/StyledCard";

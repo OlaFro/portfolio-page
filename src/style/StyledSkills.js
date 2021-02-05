@@ -33,6 +33,10 @@ export const IconStyleWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, auto);
 
+  @media (max-width: 404px) {
+    grid-template-columns: repeat(2, auto);
+  }
+
   @media (min-width: 768px) and (max-width: 1440px) {
     grid-template-columns: repeat(6, auto);
   }
