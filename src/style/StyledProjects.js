@@ -42,6 +42,11 @@ export const StyledProject = styled.div`
   background-color: grey;
   display: grid;
   grid-template-rows: repeat(2, 50%);
+  @media (max-width: 404px) {
+    grid-template-rows: 0% auto;
+    height: 25rem;
+    width: 15rem;
+  }
 `;
 
 export const StyledPic = styled.div`
@@ -88,6 +93,9 @@ export const StyledDescription = styled.div`
   padding: 20px;
   display: grid;
   grid-template-rows: 2rem auto 5rem 3rem;
+  @media (max-width: 404px) {
+    grid-template-rows: 4rem auto 7rem 3rem;
+  }
 `;
 
 export const StyledIconContainer = styled.div`
@@ -143,6 +151,9 @@ export const StyledTagContainer = styled.div`
   justify-content: flex-start;
   align-items: flex-end;
   height: 5rem;
+  @media (max-width: 404px) {
+    height: 7rem;
+  }
 `;
 
 export const StyledTag = styled.span`
