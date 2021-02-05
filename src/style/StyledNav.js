@@ -38,7 +38,7 @@ export const StyledNavLinks = styled.nav`
   justify-content: space-around;
   width: auto;
   font-size: 1.5rem;
-  display: none;
+  display: ${(props) => (props.display ? "flex" : "none")};
   a {
     text-decoration: none;
   }
@@ -47,6 +47,7 @@ export const StyledNavLinks = styled.nav`
     margin: 0.5rem 0;
     width: 7rem;
   }
+
   @media (min-width: 1550px) {
     display: flex;
     margin: auto;
@@ -71,4 +72,7 @@ export const StyledExit = styled(X)`
   color: ${(props) => props.theme.theme4.about};
   cursor: pointer;
   display: ${(props) => (props.display ? "flex" : "none")};
+  @media (min-width: 1550px) {
+    opacity: 0;
+  }
 `;

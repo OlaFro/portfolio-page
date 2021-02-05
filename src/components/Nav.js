@@ -26,7 +26,7 @@ export default function Nav(props) {
       <StyledNavContainer>
         <StyledExit onClick={handleClose} display={open} />
         <StyledMenu onClick={handleOpen} display={open} />
-        <StyledNavLinks>
+        <StyledNavLinks display={open}>
           <NavHashLink smooth to="#home">
             <StyledButton Home> Home</StyledButton>
           </NavHashLink>
