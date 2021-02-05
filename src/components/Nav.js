@@ -1,6 +1,7 @@
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
 import {
+  StyledNavLinks,
   StyledNav,
   StyledNavContainer,
   StyledMenu,
@@ -10,26 +11,28 @@ import { StyledButton } from "../style/StyledCard";
 
 export default function Nav() {
   return (
-    <StyledNavContainer>
-      <StyledExit />
-      <StyledMenu />
-      <StyledNav>
-        <NavHashLink smooth to="#home">
-          <StyledButton Home> Home</StyledButton>
-        </NavHashLink>
-        <NavHashLink smooth to="#about">
-          <StyledButton About> About</StyledButton>
-        </NavHashLink>
-        <NavHashLink smooth to="#skills">
-          <StyledButton Skills> Skills</StyledButton>
-        </NavHashLink>
-        <NavHashLink smooth to="#projects">
-          <StyledButton Projects> Projects</StyledButton>
-        </NavHashLink>
-        <NavHashLink smooth to="#footer">
-          <StyledButton Contact> Contact</StyledButton>
-        </NavHashLink>
-      </StyledNav>
-    </StyledNavContainer>
+    <StyledNav>
+      <StyledNavContainer>
+        <StyledExit />
+        <StyledMenu />
+        <StyledNavLinks>
+          <NavHashLink smooth to="#home">
+            <StyledButton Home> Home</StyledButton>
+          </NavHashLink>
+          <NavHashLink smooth to="#about">
+            <StyledButton About> About</StyledButton>
+          </NavHashLink>
+          <NavHashLink smooth to="#skills">
+            <StyledButton Skills> Skills</StyledButton>
+          </NavHashLink>
+          <NavHashLink smooth to="#projects">
+            <StyledButton Projects> Projects</StyledButton>
+          </NavHashLink>
+          <NavHashLink smooth to="#footer">
+            <StyledButton Contact> Contact</StyledButton>
+          </NavHashLink>
+        </StyledNavLinks>
+      </StyledNavContainer>
+    </StyledNav>
   );
 }
