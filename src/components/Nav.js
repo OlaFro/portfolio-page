@@ -11,14 +11,14 @@ import {
 import { StyledButton } from "../style/StyledCard";
 
 export default function Nav(props) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(0);
 
   const handleOpen = () => {
-    setOpen(true);
+    setOpen(1);
   };
 
   const handleClose = () => {
-    setOpen(false);
+    setOpen(0);
   };
 
   return (

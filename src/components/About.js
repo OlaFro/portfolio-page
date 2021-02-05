@@ -14,15 +14,15 @@ import {
 export default function About() {
   return (
     <div id="about">
-      <StyledCard color="#EEC170" zIndex="5" about>
+      <StyledCard color="#EEC170" zIndex="5" about="true">
         <StyledAboutContainer>
-          <StyledH2 about>About</StyledH2>
+          <StyledH2 about="true">About</StyledH2>
           <StyledAboutFlex>
             <StyledBrackets>
               {String.fromCharCode(123)}
               {String.fromCharCode(125)}
             </StyledBrackets>
-            <StyledText about>
+            <StyledText about="true">
               <strong>Hi, my name is Ola.</strong> At the beginning of 2020,
               I've decided to switch the career to programming and started one
               year intensive <strong>Full-Stack Web Developer</strong> training
@@ -75,7 +75,7 @@ export default function About() {
             </StyledText>
           </StyledAboutFlex>
         </StyledAboutContainer>
-        <ArrowDown about />
+        <ArrowDown about="true" />
       </StyledCard>
     </div>
   );
