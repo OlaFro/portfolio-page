@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { NavHashLink } from "react-router-hash-link";
 import {
   StyledNavLinks,
@@ -9,13 +10,22 @@ import {
 } from "../style/StyledNav";
 import { StyledButton } from "../style/StyledCard";
 
-export default function Nav() {
-  const handleClick = () => {};
+export default function Nav(props) {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <StyledNav>
       <StyledNavContainer>
-        <StyledExit />
-        <StyledMenu onClick={handleClick} />
+        <StyledExit onClick={handleClose} display={open} />
+        <StyledMenu onClick={handleOpen} display={open} />
         <StyledNavLinks>
           <NavHashLink smooth to="#home">
             <StyledButton Home> Home</StyledButton>

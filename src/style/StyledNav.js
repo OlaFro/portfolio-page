@@ -34,7 +34,6 @@ export const StyledNavContainer = styled.div`
 `;
 
 export const StyledNavLinks = styled.nav`
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: auto;
@@ -60,10 +59,8 @@ export const StyledMenu = styled(Menu)`
   height: 2rem;
   color: ${(props) => props.theme.theme4.about};
   cursor: pointer;
+  display: ${(props) => (props.display ? "none" : "flex")};
 
-  @media (max-width: 1550px) {
-    display: block;
-  }
   @media (min-width: 1550px) {
     opacity: 0;
   }
@@ -72,6 +69,6 @@ export const StyledMenu = styled(Menu)`
 export const StyledExit = styled(X)`
   height: 2rem;
   color: ${(props) => props.theme.theme4.about};
-  padding-left: 2rem;
-  display: none;
+  cursor: pointer;
+  display: ${(props) => (props.display ? "flex" : "none")};
 `;
