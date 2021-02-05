@@ -160,7 +160,7 @@ export const StyledButton = styled.div`
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 1rem;
-  border: 1px solid white;
+  border: 1px solid ${(props) => props.theme.theme4.about};
   transition: background-color 200ms ease-in-out;
 
   :hover {

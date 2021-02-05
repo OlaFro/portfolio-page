@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Menu } from "styled-icons/feather";
+import { Menu, X } from "styled-icons/feather";
 
 export const StyledNavContainer = styled.nav`
   position: -webkit-sticky;
@@ -9,6 +9,8 @@ export const StyledNavContainer = styled.nav`
   padding: 1rem 0;
   z-index: 10;
   box-shadow: 1px 1px 5px black;
+  display: flex;
+  align-items: center;
 `;
 
 export const StyledNav = styled.nav`
@@ -20,4 +22,18 @@ export const StyledNav = styled.nav`
   a {
     text-decoration: none;
   }
+`;
+
+export const StyledMenu = styled(Menu)`
+  height: 2rem;
+  color: ${(props) => props.theme.theme4.about};
+  padding-left: 2rem;
+  display: none;
+`;
+
+export const StyledExit = styled(X)`
+  height: 2rem;
+  color: ${(props) => props.theme.theme4.about};
+  padding-left: 2rem;
+  display: none;
 `;
