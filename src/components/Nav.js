@@ -10,11 +10,12 @@ import {
 import { StyledButton } from "../style/StyledCard";
 
 export default function Nav() {
+  const handleClick = () => {};
   return (
     <StyledNav>
       <StyledNavContainer>
         <StyledExit />
-        <StyledMenu />
+        <StyledMenu onClick={handleClick} />
         <StyledNavLinks>
           <NavHashLink smooth to="#home">
             <StyledButton Home> Home</StyledButton>

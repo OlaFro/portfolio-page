@@ -3,7 +3,7 @@ import { Menu, X } from "styled-icons/feather";
 
 export const StyledNav = styled.nav`
   width: 100%;
-  height: 30rem;
+  height: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -16,20 +16,20 @@ export const StyledNav = styled.nav`
   @media (min-width: 1550px) {
     height: 5rem;
   }
-  border: 1px solid yellow;
 `;
 
 export const StyledNavContainer = styled.div`
   width: 95%;
   height: 100%;
   margin: auto;
-  border: 1px solid red;
   display: grid;
   grid-template-rows: 4rem auto;
   align-items: center;
+  margin-bottom: 1rem;
 
   @media (min-width: 1550px) {
     grid-template-columns: 4rem auto;
+    margin-bottom: 0rem;
   }
 `;
 
@@ -39,32 +39,33 @@ export const StyledNavLinks = styled.nav`
   justify-content: space-around;
   width: auto;
   font-size: 1.5rem;
-  border: 1px solid blue;
-
+  display: none;
   a {
     text-decoration: none;
   }
 
   > a > div {
     margin: 0.5rem 0;
+    width: 7rem;
   }
   @media (min-width: 1550px) {
+    display: flex;
     margin: auto;
     flex-direction: row;
-    width: 50%;
+    width: 60%;
   }
 `;
 
 export const StyledMenu = styled(Menu)`
   height: 2rem;
   color: ${(props) => props.theme.theme4.about};
-  border: 1px solid green;
+  cursor: pointer;
 
   @media (max-width: 1550px) {
     display: block;
   }
   @media (min-width: 1550px) {
-    /* display: none; */
+    opacity: 0;
   }
 `;
 
