@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Menu } from "styled-icons/feather";
 
 export const StyledNavContainer = styled.nav`
   position: -webkit-sticky;

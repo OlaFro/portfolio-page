@@ -28,6 +28,7 @@ export const StyledCursor = styled.span`
   margin: 3rem 0;
   height: 1rem;
   width: 3px;
+  border-radius: 50px;
   background-color: ${(props) => props.theme.theme4.about};
   animation-name: ${blink};
   animation-duration: 1000ms;
