@@ -23,13 +23,13 @@ export const StyledGrid = styled.div`
   grid-row-gap: 3rem;
   justify-content: center;
 
-  @media (min-width: 950px) and (max-width: 1440px) {
+  @media (min-width: 950px) and (max-width: 1400px) {
     grid-template-columns: repeat(2, auto);
     grid-row-gap: 3rem;
     justify-content: space-evenly;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1400px) {
     grid-template-columns: repeat(3, auto);
     grid-row-gap: 3rem;
     justify-content: space-evenly;
