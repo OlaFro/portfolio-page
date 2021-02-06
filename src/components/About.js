@@ -32,7 +32,7 @@ export default function About() {
               </a>
               . Due to the COVID-19 pandemic, the course was moved from the
               classroom entirely to remote, which was a completely new
-              experience and has taught me how to work in this environment.
+              experience and has taught me how to work in that environment.
               <br></br>
               <br></br>
               Our full-time course has started with teaching us basics about the{" "}
@@ -62,7 +62,7 @@ export default function About() {
               adding <strong>graphic skills</strong> and an eye for the finest
               visual detail. My natural curiosity makes me getting to the bottom
               of things and left no question unanswered. I'm passionate about
-              technology and programming and it in the creative field.
+              technology and programming and it's creative potential.
               <br></br>
               <br></br>I’m looking for a job where I will apply and develop my
               skills and contribute to creating an extraordinary user
