@@ -27,7 +27,11 @@ export default function About() {
               I've decided to switch the career to programming and started one
               year intensive <strong>Full-Stack Web Developer</strong> training
               at{" "}
-              <a href="https://digitalcareerinstitute.org/">
+              <a
+                href="https://digitalcareerinstitute.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Digital Career Institute
               </a>
               . Due to the COVID-19 pandemic, the course was moved from the
@@ -67,7 +71,11 @@ export default function About() {
               <br></br>I’m looking for a job where I will apply and develop my
               skills and contribute to creating an extraordinary user
               experience. <br></br>
-              <a href="www.linkedin.com/in/ola-frost">
+              <a
+                href="www.linkedin.com/in/ola-frost"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 {" "}
                 Don't hesitate to visit my LinkedIn profile.
               </a>{" "}

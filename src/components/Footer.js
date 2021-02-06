@@ -28,10 +28,18 @@ export default function Footer() {
               </StyledBody>
             </div>
             <div>
-              <a href="https://github.com/OlaFro/">
+              <a
+                href="https://github.com/OlaFro/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <StyledGithub footer />
               </a>
-              <a href="https://www.linkedin.com/in/ola-frost/">
+              <a
+                href="https://www.linkedin.com/in/ola-frost/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <StyledLinkedIn />
               </a>
             </div>

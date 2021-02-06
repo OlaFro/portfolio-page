@@ -40,7 +40,11 @@ export default function Projects(props) {
                   <StyledTag>CSS3</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
-                  <a href="https://codepen.io/olafro/pen/RwWXzob">
+                  <a
+                    href="https://codepen.io/olafro/pen/RwWXzob"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledCodepen />
                   </a>
                 </StyledIconContainer>
@@ -60,11 +64,19 @@ export default function Projects(props) {
                   <StyledTag>Vanila JS</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
-                  <a href="https://github.com/OlaFro/Pomodoro-Timer">
+                  <a
+                    href="https://github.com/OlaFro/Pomodoro-Timer"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledGithub />
                   </a>
 
-                  <a href="https://olafro.github.io/Pomodoro-Timer/">
+                  <a
+                    href="https://olafro.github.io/Pomodoro-Timer/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledDeploy />
                   </a>
                 </StyledIconContainer>
@@ -85,11 +97,19 @@ export default function Projects(props) {
                   <StyledTag>Class Components</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
-                  <a href="https://github.com/OlaFro/React-to-do">
+                  <a
+                    href="https://github.com/OlaFro/React-to-do"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledGithub />
                   </a>
 
-                  <a href="https://olafro.github.io/React-to-do/">
+                  <a
+                    href="https://olafro.github.io/React-to-do/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledDeploy />
                   </a>
                 </StyledIconContainer>
@@ -112,11 +132,19 @@ export default function Projects(props) {
                   <StyledTag>chroma.js</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
-                  <a href="https://github.com/OlaFro/React-color-palette-generator">
+                  <a
+                    href="https://github.com/OlaFro/React-color-palette-generator"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledGithub />
                   </a>
 
-                  <a href="https://palette-generator.vercel.app/">
+                  <a
+                    href="https://palette-generator.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledDeploy />
                   </a>
                 </StyledIconContainer>
@@ -141,11 +169,19 @@ export default function Projects(props) {
                   <StyledTag>Express.js</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
-                  <a href="https://github.com/OlaFro/SpotifyAPI">
+                  <a
+                    href="https://github.com/OlaFro/SpotifyAPI"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledGithub />
                   </a>
 
-                  <a href="https://choosify.herokuapp.com/">
+                  <a
+                    href="https://choosify.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledDeploy />
                   </a>
                 </StyledIconContainer>
@@ -165,7 +201,11 @@ export default function Projects(props) {
                   <StyledTag>Hooks</StyledTag>
                 </StyledTagContainer>
                 <StyledIconContainer>
-                  <a href="https://github.com/OlaFro/portfolio-page">
+                  <a
+                    href="https://github.com/OlaFro/portfolio-page"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <StyledGithub />
                   </a>
                 </StyledIconContainer>
