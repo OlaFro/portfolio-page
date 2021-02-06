@@ -28,19 +28,34 @@ export default function Nav(props) {
         <StyledMenu onClick={handleOpen} display={open} />
         <StyledNavLinks display={open}>
           <NavHashLink smooth to="#home">
-            <StyledButton Home> Home</StyledButton>
+            <StyledButton Home onClick={handleClose} display={open}>
+              {" "}
+              Home
+            </StyledButton>
           </NavHashLink>
           <NavHashLink smooth to="#about">
-            <StyledButton About> About</StyledButton>
+            <StyledButton About onClick={handleClose} display={open}>
+              {" "}
+              About
+            </StyledButton>
           </NavHashLink>
           <NavHashLink smooth to="#skills">
-            <StyledButton Skills> Skills</StyledButton>
+            <StyledButton Skills onClick={handleClose} display={open}>
+              {" "}
+              Skills
+            </StyledButton>
           </NavHashLink>
           <NavHashLink smooth to="#projects">
-            <StyledButton Projects> Projects</StyledButton>
+            <StyledButton Projects onClick={handleClose} display={open}>
+              {" "}
+              Projects
+            </StyledButton>
           </NavHashLink>
           <NavHashLink smooth to="#footer">
-            <StyledButton Contact> Contact</StyledButton>
+            <StyledButton Contact onClick={handleClose} display={open}>
+              {" "}
+              Contact
+            </StyledButton>
           </NavHashLink>
         </StyledNavLinks>
       </StyledNavContainer>
