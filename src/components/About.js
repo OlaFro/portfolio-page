@@ -10,6 +10,7 @@ import {
   StyledAboutFlex,
   StyledBrackets,
 } from "../style/StyledAbout";
+import { NavHashLink } from "react-router-hash-link";
 
 export default function About() {
   return (
@@ -83,7 +84,9 @@ export default function About() {
             </StyledText>
           </StyledAboutFlex>
         </StyledAboutContainer>
-        <ArrowDown about="true" />
+        <NavHashLink smooth to="#skills">
+          <ArrowDown about="true" />
+        </NavHashLink>
       </StyledCard>
     </div>
   );

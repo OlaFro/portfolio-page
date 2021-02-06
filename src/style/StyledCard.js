@@ -70,6 +70,7 @@ export const ArrowDown = styled(KeyboardArrowDown)`
   bottom: -1.8rem;
   transform: translateX(-50%);
   transition: bottom 250ms ease-in-out;
+  cursor: pointer;
 
   :hover {
     bottom: -2rem;

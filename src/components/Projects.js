@@ -19,6 +19,7 @@ import {
   StyledTagContainer,
   StyledTag,
 } from "../style/StyledProjects";
+import { NavHashLink } from "react-router-hash-link";
 
 export default function Projects(props) {
   return (
@@ -212,7 +213,9 @@ export default function Projects(props) {
               </StyledDescription>
             </StyledProject>
           </StyledGrid>
-          <ArrowDown projects />
+          <NavHashLink smooth to="#footer">
+            <ArrowDown projects />
+          </NavHashLink>
         </StyledProjectsContainer>
       </StyledCard>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { StyledCard, ArrowDown, StyledH1 } from "../style/StyledCard";
 import { StyledHeroContainer, StyledCursor } from "../style/StyledHero";
+import { NavHashLink } from "react-router-hash-link";
 
 export default function Hero(props) {
   return (
@@ -14,7 +15,9 @@ export default function Hero(props) {
           <StyledH1>{String.fromCharCode(125)}</StyledH1>
           <StyledCursor />
         </StyledHeroContainer>
-        <ArrowDown />
+        <NavHashLink smooth to="#about">
+          <ArrowDown />
+        </NavHashLink>
       </StyledCard>
     </div>
   );

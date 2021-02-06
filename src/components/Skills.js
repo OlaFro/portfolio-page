@@ -26,6 +26,7 @@ import {
   Mongodb,
   Adobecreativecloud,
 } from "styled-icons/simple-icons";
+import { NavHashLink } from "react-router-hash-link";
 
 export default function Skills() {
   return (
@@ -88,7 +89,9 @@ export default function Skills() {
             <strong>German</strong> & <strong>Polish</strong>.
           </StyledText>
         </StyledSkillsContainer>
-        <ArrowDown />
+        <NavHashLink smooth to="#projects">
+          <ArrowDown />
+        </NavHashLink>
       </StyledCard>
     </div>
   );
