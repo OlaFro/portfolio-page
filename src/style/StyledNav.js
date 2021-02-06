@@ -23,7 +23,7 @@ export const StyledNavContainer = styled.div`
   grid-template-rows: 4rem auto;
   align-items: center;
 
-  @media (min-width: 1550px) {
+  @media (min-width: 1400px) {
     grid-template-columns: 4rem auto;
     grid-template-rows: auto 0;
     margin-bottom: 0rem;
@@ -45,11 +45,11 @@ export const StyledNavLinks = styled.nav`
     width: 7rem;
   }
 
-  @media (min-width: 1550px) {
+  @media (min-width: 1400px) {
     display: flex;
     margin: auto;
     flex-direction: row;
-    width: 60%;
+    width: 70%;
     height: 100%;
     align-items: center;
   }
@@ -61,7 +61,7 @@ export const StyledMenu = styled(Menu)`
   cursor: pointer;
   display: ${(props) => (props.display ? "none" : "flex")};
 
-  @media (min-width: 1550px) {
+  @media (min-width: 1400px) {
     opacity: 0;
   }
 `;
@@ -71,7 +71,7 @@ export const StyledExit = styled(X)`
   color: ${(props) => props.theme.theme4.about};
   cursor: pointer;
   display: ${(props) => (props.display ? "flex" : "none")};
-  @media (min-width: 1550px) {
+  @media (min-width: 1400px) {
     opacity: 0;
   }
 `;
