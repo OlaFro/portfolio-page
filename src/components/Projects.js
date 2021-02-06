@@ -29,7 +29,12 @@ export default function Projects(props) {
           <StyledH2>projects</StyledH2>
           <StyledGrid>
             <StyledProject>
-              <StyledPic project1 />
+              <StyledPic
+                project1
+                onClick={() =>
+                  window.open("https://codepen.io/olafro/pen/RwWXzob", "_blank")
+                }
+              />
               <StyledDescription>
                 <StyledH3>Toggle button</StyledH3>
                 <StyledBody>
@@ -52,7 +57,15 @@ export default function Projects(props) {
               </StyledDescription>
             </StyledProject>
             <StyledProject>
-              <StyledPic project2 />
+              <StyledPic
+                project2
+                onClick={() =>
+                  window.open(
+                    "https://olafro.github.io/Pomodoro-Timer/",
+                    "_blank"
+                  )
+                }
+              />
               <StyledDescription>
                 <StyledH3>Pomodoro Timer</StyledH3>
                 <StyledBody>
@@ -84,7 +97,12 @@ export default function Projects(props) {
               </StyledDescription>
             </StyledProject>
             <StyledProject>
-              <StyledPic project3 />
+              <StyledPic
+                project3
+                onClick={() =>
+                  window.open("https://olafro.github.io/React-to-do/", "_blank")
+                }
+              />
               <StyledDescription>
                 <StyledH3>To-do App</StyledH3>
                 <StyledBody>
@@ -117,7 +135,12 @@ export default function Projects(props) {
               </StyledDescription>
             </StyledProject>
             <StyledProject>
-              <StyledPic project4 />
+              <StyledPic
+                project4
+                onClick={() =>
+                  window.open("https://palette-generator.vercel.app/", "_blank")
+                }
+              />
               <StyledDescription>
                 <StyledH3>Palette Generator</StyledH3>
                 <StyledBody>
@@ -152,7 +175,12 @@ export default function Projects(props) {
               </StyledDescription>
             </StyledProject>
             <StyledProject>
-              <StyledPic project5 />
+              <StyledPic
+                project5
+                onClick={() =>
+                  window.open("https://choosify.herokuapp.com/", "_blank")
+                }
+              />
               <StyledDescription>
                 <StyledH3>Music recommendation app</StyledH3>
                 <StyledBody>

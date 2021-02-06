@@ -39,7 +39,6 @@ export const StyledGrid = styled.div`
 export const StyledProject = styled.div`
   height: 40rem;
   width: 20rem;
-  background-color: grey;
   display: grid;
   grid-template-rows: repeat(2, 50%);
   @media (max-width: 404px) {
