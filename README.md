@@ -4,7 +4,7 @@ My personal portfolio site.
 
 ## Visit 
 
-👉 [www.olafrost.com](www.olafrost.com) 👈
+👉 [www.olafrost.com](https://www.olafrost.com) 👈
 
 ## About
 
